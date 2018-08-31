@@ -2,7 +2,7 @@
 
 let sampleSpecies = {
 	name: "Strawberry Tadpole",
-	scientificName: "Dendrobates pumilio",
+	speciesName: "Dendrobates pumilio",
 	type: "Amphibian",
 	desc: "Someday you'll have blue legs too, little rana.",
 	borders: {
@@ -18,3 +18,9 @@ let sampleSpecies = {
 	pack: "CR", // pack id (Costa Rica)
 	cardNumber: 3, // pack listing
 };
+
+let samplePlayer = {
+	hand: [], // currently held cards
+	deck: [], // cards left in deck
+	points: 18, // number of points currently held
+}
