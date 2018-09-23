@@ -97,16 +97,24 @@ let game = function() {
 		if (canPlaceCard(_card, _board, _row, _col)) {
 			_board[_row][_col] = _card;
 
+			// if placed next to enemy card
 			if (canStartTurfWar(_card, _board, _row, _col)) {
-
+				// selectTurfWarEnemy()
+				turfWar();
 			}
 		}
 	}
 
 	// ----- TURF WAR -----
 
+	// does card placement trigger a turf ware
 	function canStartTurfWar(_card, _board, _row, _col) {
-		
+
+	}
+
+	// if there's more than two players, select which enemy to attack
+	function selectTurfWarEnemy() {
+
 	}
 
 	// TODO: might also need to split the functionality here
