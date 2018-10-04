@@ -1,0 +1,23 @@
+{
+  "name": "xeko",
+  "version": "1.0.0",
+  "description": "Virtual card game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lampridiforme/xeko.git"
+  },
+  "author": "lampridiforme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lampridiforme/xeko/issues"
+  },
+  "homepage": "https://github.com/lampridiforme/xeko#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "unit.js": "^2.0.0"
+  }
+}

@@ -72,6 +72,11 @@ class Game {
 		return this[findSunsetCards]();
 	}
 
+	// for card use only
+	get context() {
+		return this;
+	}
+
 }
 
 module.exports = Game;

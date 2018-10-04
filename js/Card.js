@@ -2,6 +2,7 @@ class Card {
 	constructor(_player, _template) {
 		this._player = _player;
 
+		this._id = _template.pack + _template.number;
 		this._name = _template.name;
 		this._pack = _template.pack;
 		this._number = _template.number;
@@ -10,6 +11,10 @@ class Card {
 		this._rulesType = _template.rulesType;
 		this._flavorText = _template.flavorText;
 		this._rarity = _template.rarity;
+
+		// unplaced
+		this._row = -1;
+		this._col = -1;
 
 		this._effect = () => console.log("No effect implemented.");
 	}
@@ -21,6 +26,15 @@ class Card {
 	}
 
 	// ----- HELPERS -----
+
+	// ----- SETTERS -----
+	set row(_newRow) {
+		this._row = _newRow;
+	}
+
+	set col(_newCol) {
+		this._col = _newCol;
+	}
 
 	// ----- GETTERS -----
 	get owner() {
@@ -57,6 +71,14 @@ class Card {
 
 	get rarity() {
 		return this._rarity;
+	}
+
+	get row() {
+		return this._row;
+	}
+
+	get col() {
+		return this._col;
 	}
 }
 
