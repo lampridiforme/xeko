@@ -1,24 +1,7 @@
-// load Unit.js module
-//var test = require('unit.js');
-
 /*
-// just for example of tested value
-var example = 'hello';
-// assert that example variable is a string
-test.string(example);
-// or with Must.js
-test.must(example).be.a.string();
-// or with assert
-test.assert(typeof example === 'string');
-
-// test.assert(example.length === 10); // wrong
-// test.assert(example.length === 20); // double wrong
-
-//test.string(3);
-*/
 
 let test = require('unit.js');
-var assert = require('assert');
+let assert = require('assert');
 it('should return -1 when the value is not present', function() {
   test.assert.equal([1,2,3].indexOf(4), -1);
 });
@@ -33,6 +16,17 @@ it('should pass this one!', function() {
 
 it('should pass this one too', function() {
 	test.string('let me pass');
+}); 
+
+var assert = require('assert');
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1,2,3].indexOf(4), -1);
+    });
+  });
 });
+
+*/
 
 // end result: 3 passed, 1 failed

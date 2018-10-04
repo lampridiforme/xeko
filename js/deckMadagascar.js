@@ -2514,7 +2514,7 @@ let deckMadagascar = {
 		},
 		"energy": 0,
 		"points": 0,
-		"level": ,
+		"level": [],
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "",

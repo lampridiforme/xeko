@@ -5,7 +5,7 @@ const validatePosition = Symbol('validatePosition');
 
 class Board {
 	constructor(_deckSize, _hotspot) {
-		this._board = this[initBoard]();
+		this._board = this[initBoard](_deckSize, _hotspot);
 
 	}
 
@@ -55,6 +55,8 @@ class Board {
 	removeCard(_row, _col) {
 		let removed = this._board[_row][_col];
 		this._board[_row][_col] = null;
+
+		return removed;
 		// TODO: may need additional cleanup if referenced in other objects, I think
 	}
 
@@ -73,13 +75,15 @@ class Board {
 			board.push(row);
 		}
 
-		board[_deckSize][_deckSize] = _hotspotCard;
+		board[_deckSize][_deckSize] = _hotspot;
 
 		return board;
 	}
 
+	// check for border conflicts and if an existing card is on the board already
 	[validatePosition](_row, _col) {
 		// TODO
+		return true;
 	}
 
 	// ----- GETTERS -----
