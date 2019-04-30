@@ -13,13 +13,13 @@ let deckMadagascar = {
 			"top": ["orange", "yellow"],
 			"bottom": []
 		},
-		"energy": 5,
+		"energy": 0,
 		"points": 0,
 		"level": 0,
-		"rulesType": {},
+		"rulesType": "ADDENERGY-5",
 		"rulesText": "+5 Energy",
 		"flavorText": "Great defense - animals blend in to hide.",
-		"image": null,
+		"image": ""
 	},
 	"M2": {
 		"name": "Fresh Spring",
@@ -35,13 +35,13 @@ let deckMadagascar = {
 			"top": [],
 			"bottom": ["blue", "red", "orange"]
 		},
-		"energy": 4,
+		"energy": 0,
 		"points": 0,
 		"level": 0,
-		"rulesType": {},
+		"rulesType": "ADDENERGY-4",
 		"rulesText": "+4 Energy",
 		"flavorText": "A quick drink refreshes.",
-		"image": null,
+		"image": ""
 	},
 	"M3": {
 		"name": "Warning Sign",
@@ -60,15 +60,10 @@ let deckMadagascar = {
 		"energy": 0,
 		"points": 0,
 		"level": 0,
-		"rulesType": {
-			"additionalEnergy": {
-				"requirement": null,
-				"energy": "enemyhand"
-			}
-		},
+		"rulesType": "ADDENERGY-ENEMYHAND",
 		"rulesText": "Add energy equal to the number of cards in opponent's hand.",
 		"flavorText": "Birds take flight giving warning that something big is on its way.",
-		"image": null,
+		"image": ""
 	},
 	"M4": {
 		"name": "Vacant Cave",
@@ -84,13 +79,13 @@ let deckMadagascar = {
 			"top": ["red"],
 			"bottom": []
 		},
-		"energy": 10,
+		"energy": 0,
 		"points": 0,
 		"level": 0,
-		"rulesType": {},
+		"rulesType": "ADDENERGY-10",
 		"rulesText": "+10 Energy",
 		"flavorText": "Great place to hide ... hope it's empty!",
-		"image": null,
+		"image": ""
 	},
 	"M6": {
 		"name": "Swarm",
@@ -109,16 +104,10 @@ let deckMadagascar = {
 		"energy": 0,
 		"points": 0,
 		"level": 0,
-		"rulesType": {
-			"requirement": null,
-			"energy": {
-				"base": "level1",
-				"multiplier": 2
-			}
-		},
+		"rulesType": "ADDENERGY-TROPHIC1MULT2",
 		"rulesText": "Add Energy equal to the number of level 1 species in play times 2.",
 		"flavorText": "There's strength in numbers.",
-		"image": null,
+		"image": ""
 	},
 	"M7": {
 		"name": "Disguise",
@@ -137,12 +126,10 @@ let deckMadagascar = {
 		"energy": 0,
 		"points": 0,
 		"level": 0,
-		"rulesType": {
-
-		},
+		"rulesType": "ADDENERGY-5-ADDTROPHIC-2-5",
 		"rulesText": "+3 Energy. Add an additional +5 Energy if played on a level 2 species.",
 		"flavorText": "To be invisible, blend in.",
-		"image": null,
+		"image": ""
 	},	
 	"M8": {
 		"name": "Armour",
@@ -164,7 +151,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-5-ADDTROPHIC-3-5",
 		"rulesText": "+3 Energy. Add an additional +5 Energy if played on a level 3 species.",
 		"flavorText": "Crusty shell protects so well!",
-		"image": null,
+		"image": ""
 	},	
 	"M9": {
 		"name": "Heavy Storm",
@@ -186,7 +173,7 @@ let deckMadagascar = {
 		"rulesType": "TURFTIE",
 		"rulesText": "This Turf War end in a tie.",
 		"flavorText": "All creatures, big and small, take cover in heavy weather.",
-		"image": null,
+		"image": ""
 	},	
 	"M10": {
 		"name": "Stridulation",
@@ -208,7 +195,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-3-REUSECARD",
 		"rulesText": "+3 Energy. Shuffle the card back into your Draw Pile when played.",
 		"flavorText": "The vibrating of spines to make a resping sound scares some predators away.",
-		"image": null,
+		"image": ""
 	},	
 	"M11": {
 		"name": "Food Stash",
@@ -230,7 +217,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-7-REUSECARD",
 		"rulesText": "+7 Energy. Shuffle this card back into your Draw Pile when played.",
 		"flavorText": "Quick snack gives extra energy.",
-		"image": null,
+		"image": ""
 	},	
 	"M12": {
 		"name": "Toxic",
@@ -252,7 +239,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-BASEENERGY",
 		"rulesText": "Add Energy equal to the base Energy of the Species card.",
 		"flavorText": "Some species acquire toxins through their diet, making them poisonous and yucky-tasting. The Mantella baroni snacks on ants.",
-		"image": null,
+		"image": ""
 	},	
 	"M13": {
 		"name": "Rain",
@@ -274,7 +261,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-5-REUSECARD",
 		"rulesText": "+5 Energy. Shuffle this card back into your Draw Pile when played.",
 		"flavorText": "Tsy misy ala, tsy misy rano, tsy misy vary!",
-		"image": null,
+		"image": ""
 	},	
 	"M14": {
 		"name": "Hiding Spot",
@@ -296,7 +283,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-3-DRAWCARD-1",
 		"rulesText": "+3 Energy. Draw a card.",
 		"flavorText": "Lie low and keep quiet until trouble passes by...",
-		"image": null,
+		"image": ""
 	},	
 	"M15": {
 		"name": "Sticky Web Trap",
@@ -318,7 +305,7 @@ let deckMadagascar = {
 		"rulesType": "TURFENEMYUSELESSBOOSTS",
 		"rulesText": "During this Turf War, all Boost cards played by opponent increase Energy by 0.",
 		"flavorText": "Gumbed up in a spider's sticky web.",
-		"image": null,
+		"image": ""
 	},	
 	"M16": {
 		"name": "Up a Tree",
@@ -340,7 +327,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-5-NOTFIRSTBOOST-5",
 		"rulesText": "+5 Energy. If this is not your first Boost card in this Turf War, add an additional +5 Energy.",
 		"flavorText": "Out of harm's reach?",
-		"image": null,
+		"image": ""
 	},	
 	"M17": {
 		"name": "Full Moon",
@@ -362,7 +349,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-6",
 		"rulesText": "+6 Energy",
 		"flavorText": "Moon light, shine bright. Light the earth for the hunt tonight.",
-		"image": null,
+		"image": ""
 	},	
 	"M18": {
 		"name": "Fangs!",
@@ -384,7 +371,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-5-ADDTROPHIC-2-3",
 		"rulesText": "+5 Energy. Add an additional +3 Energy if played on a level 2 species.",
 		"flavorText": "Sharp teeth --- big bite! Fangs give Turf War advantage.",
-		"image": null,
+		"image": ""
 	},	
 	"M19": {
 		"name": "Brute Force",
@@ -406,7 +393,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-5-ADDTROPHIC-3-3",
 		"rulesText": "+5 Energy. Add an additional +3 Energy if played on a level 3 species.",
 		"flavorText": "It helps to be big and strong.",
-		"image": null,
+		"image": ""
 	},	
 	"M20": {
 		"name": "Ruckuss!",
@@ -428,7 +415,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-4",
 		"rulesText": "+4 Energy",
 		"flavorText": "Make crazy noise to win the day.",
-		"image": null,
+		"image": ""
 	},	
 	"M21": {
 		"name": "Symbiosis",
@@ -450,7 +437,7 @@ let deckMadagascar = {
 		"rulesType": "TURFADDENEMYECO",
 		"rulesText": "Add Energy equal to the Eco-points of the other species in the Turf War.",
 		"flavorText": "Wild collaboration. These clever frogs have a wet home and ready bug supply thanks to the pitcher plant.",
-		"image": null,
+		"image": ""
 	},	
 	"M22": {
 		"name": "Healing Plant",
@@ -472,7 +459,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-5-ADDTROPHIC-1-3",
 		"rulesText": "+5 Energy. Add an additional +3 Energy if played on a level 1 species.",
 		"flavorText": "Rosy periwinkle, found only in Madagascar, is considered a miracle plant.",
-		"image": null,
+		"image": ""
 	},	
 	"M23": {
 		"name": "Nocturnal Instinct",
@@ -494,7 +481,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-7-ADDTROPHIC-4-5",
 		"rulesText": "+7 Energy. Add an additional +5 Energy if played on a level 4 species",
 		"flavorText": "Looking for a midnight snack!",
-		"image": null,
+		"image": ""
 	},	
 	"M24": {
 		"name": "Super Smell",
@@ -516,7 +503,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-10",
 		"rulesText": "+10 Energy",
 		"flavorText": "Sniff. Sniff! What smells? Oh, it's my tail!",
-		"image": null,
+		"image": ""
 	},	
 	"M25": {
 		"name": "Super Speed",
@@ -538,7 +525,7 @@ let deckMadagascar = {
 		"rulesType": "ADDENERGY-15",
 		"rulesText": "+15 Energy",
 		"flavorText": "Go fast to catch your prey or get away!",
-		"image": null,
+		"image": ""
 	},
 	"M26": {
 		"name": "Golden Bamboo Lemur",
@@ -550,9 +537,9 @@ let deckMadagascar = {
 		"rarity": "Vanishing",
 		"borders": {
 			"left": ["red"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["red"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 12,
 		"points": 10,
@@ -560,7 +547,7 @@ let deckMadagascar = {
 		"rulesType": "TURFNOBOOST",
 		"rulesText": "Boost cards may not be played in Turf Wars involving this card.",
 		"flavorText": "One of the world's most endangered. GBL eats daily - 500g of bamboo containing 12 times the amount of cyanide lethal to most animals.",
-		"image": null,
+		"image": ""
 	},
 	"M27": {
 		"name": "Hawk Moth",
@@ -572,9 +559,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": [],
-			"right": ["red"]
+			"right": ["red"],
 			"top": [],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 13,
 		"points": 13,
@@ -582,7 +569,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Super-fast flyers and symbiotic with comet orchid. Darwin predicted their existence before they were known.",
-		"image": null,
+		"image": ""
 	},
 	"M28": {
 		"name": "Fossa",
@@ -594,9 +581,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["purple"],
-			"right": []
+			"right": [],
 			"top": ["purple"],
-			"bottom": ["purple"],
+			"bottom": ["purple"]
 		},
 		"energy": 14,
 		"points": 11,
@@ -604,7 +591,7 @@ let deckMadagascar = {
 		"rulesType": "FEROCITY-6",
 		"rulesText": "Ferocity 6: This species gets +6 Energy when it is the invading species.",
 		"flavorText": "One of the world's weirdest - and Madagascar's most ferocious - predators. Said to have a nose like a dog's, teeth like a leopard's and whiskers like an otter's.",
-		"image": null,
+		"image": ""
 	},
 	"M29": {
 		"name": "Hawksbill Sea Turtle",
@@ -616,9 +603,9 @@ let deckMadagascar = {
 		"rarity": "Vanishing",
 		"borders": {
 			"left": [],
-			"right": ["purple", "red"]
+			"right": ["purple", "red"],
 			"top": ["purple", "red"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 13,
 		"points": 9,
@@ -626,7 +613,7 @@ let deckMadagascar = {
 		"rulesType": "MORPH-4",
 		"rulesText": "Morph 4: You may draw up to 4 cards at the beginning of any Turf War involving this species.",
 		"flavorText": "This ocean swimmer loves the taste of sea sponges. Mind the beak!",
-		"image": null,
+		"image": ""
 	},
 	"M30": {
 		"name": "Madagascar Fish Eagle",
@@ -638,9 +625,9 @@ let deckMadagascar = {
 		"rarity": "Vanishing",
 		"borders": {
 			"left": ["red", "purple"],
-			"right": ["purple", "red"]
+			"right": ["purple", "red"],
 			"top": [],
-			"bottom": ["red", "purple"],
+			"bottom": ["red", "purple"]
 		},
 		"energy": 14,
 		"points": 12,
@@ -648,7 +635,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Close relative of the bald eagle - one of the most endangered raptors in the world. Loud, measured call: Wha ... wah ... wah ...",
-		"image": null,
+		"image": ""
 	},
 	"M31": {
 		"name": "Golden Crowned Lemur",
@@ -660,9 +647,9 @@ let deckMadagascar = {
 		"rarity": "Vanishing",
 		"borders": {
 			"left": ["red", "purple"],
-			"right": []
+			"right": [],
 			"top": ["red", "purple"],
-			"bottom": ["red", "purple"],
+			"bottom": ["red", "purple"]
 		},
 		"energy": 9,
 		"points": 15,
@@ -670,7 +657,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "One of the most endangered lemurs and fady to harm. Grooms its (and friends') fur with six lower teeth that stick out to form a funky comb.",
-		"image": null,
+		"image": ""
 	},
 	"M32": {
 		"name": "Ploughshare Tortoise",
@@ -682,9 +669,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["red", "purple"],
-			"right": ["red", "purple"]
+			"right": ["red", "purple"],
 			"top": ["red", "purple"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 10,
 		"points": 10,
@@ -692,7 +679,7 @@ let deckMadagascar = {
 		"rulesType": "NEST-6",
 		"rulesText": "Nest 6: This species gets +6 Energy when it is the defending species.",
 		"flavorText": "In wrestling matches to win a mate, these turtles use their \"plow\" to flip over opponents.",
-		"image": null,
+		"image": ""
 	},
 	"M33": {
 		"name": "Tomato Frog",
@@ -704,9 +691,9 @@ let deckMadagascar = {
 		"rarity": "",
 		"borders": {
 			"left": [],
-			"right": ["red", "purple"]
+			"right": ["red", "purple"],
 			"top": ["red", "purple"],
-			"bottom": ["red", "purple"],
+			"bottom": ["red", "purple"]
 		},
 		"energy": 13,
 		"points": 6,
@@ -714,7 +701,7 @@ let deckMadagascar = {
 		"rulesType": "DEFEND-3-4",
 		"rulesText": "This species gets +4 Energy when invaded by a level 3 species.",
 		"flavorText": " Red like a ripe tomato. As a defense, it secretes a toxic ooze.",
-		"image": null,
+		"image": ""
 	},
 	"M34": {
 		"name": "Giant Leaf-tailed Gecko",
@@ -726,9 +713,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["red", "purple"],
-			"right": []
+			"right": [],
 			"top": ["red", "purple"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 11,
 		"points": 14,
@@ -736,7 +723,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Gecko with perfect tree camouflage. Bark-like skin, large eyes, no eye lids, a flip-top head and leaf-like tail.",
-		"image": null,
+		"image": ""
 	},
 	"M35": {
 		"name": "Nile Crocodile",
@@ -748,9 +735,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": [],
-			"right": ["red", "purple"]
+			"right": ["red", "purple"],
 			"top": [],
-			"bottom": ["red", "purple"],
+			"bottom": ["red", "purple"]
 		},
 		"energy": 15,
 		"points": 8,
@@ -758,7 +745,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "One tough and hungry crock - where did that bird go? (Burp!)",
-		"image": null,
+		"image": ""
 	},
 	"M36": {
 		"name": "Giant-striped Mongoose",
@@ -770,9 +757,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["red", "purple"],
-			"right": []
+			"right": [],
 			"top": ["red", "purple"],
-			"bottom": ["red", "purple"],
+			"bottom": ["red", "purple"]
 		},
 		"energy": 10,
 		"points": 9,
@@ -780,7 +767,7 @@ let deckMadagascar = {
 		"rulesType": "TURFSPECIES-REPTILE-4",
 		"rulesText": "This species gets +4 Energy when involved in a Turf War with a Reptile species.",
 		"flavorText": "Nocturnal and crepuscular - active at night and at twilight.",
-		"image": null,
+		"image": ""
 	},
 	"M37": {
 		"name": "Malagasy Ring-tailed Mongoose",
@@ -792,9 +779,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": [],
-			"right": ["red", "purple"]
+			"right": ["red", "purple"],
 			"top": [],
-			"bottom": ["red", "purple"],
+			"bottom": ["red", "purple"]
 		},
 		"energy": 10,
 		"points": 11,
@@ -802,7 +789,7 @@ let deckMadagascar = {
 		"rulesType": "TURFSPECIES-REPTILE-4",
 		"rulesText": "This species gets +4 Energy when involved in a Turf War with a Reptile species.",
 		"flavorText": "Diurnal and gregarious - active and playful during the day.",
-		"image": null,
+		"image": ""
 	},
 	"M39": {
 		"name": "Commerson's Leaf-nosed Bat",
@@ -814,9 +801,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["purple"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["purple"],
-			"bottom": ["purple"],
+			"bottom": ["purple"]
 		},
 		"energy": 11,
 		"points": 12,
@@ -824,7 +811,7 @@ let deckMadagascar = {
 		"rulesType": "TURFDIAGONAL",
 		"rulesText": "This species may start a Turf War with a species diagonally.",
 		"flavorText": "Holy bat-nose! With a wingspan of nearly 2 feet, it's one of the largest insectivors in Africa.",
-		"image": null,
+		"image": ""
 	},
 	"M40": {
 		"name": "Hairy-eared Dwarf Lemur",
@@ -836,9 +823,9 @@ let deckMadagascar = {
 		"rarity": "Vanishing",
 		"borders": {
 			"left": ["purple"],
-			"right": ["purple"]
+			"right": ["purple"],
 			"top": ["purple"],
-			"bottom": ["purple"],
+			"bottom": ["purple"]
 		},
 		"energy": 7,
 		"points": 17,
@@ -846,7 +833,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "One of the rarest, smallest - and cutest - primates on the planet, once thought extinct, this lemur was \"rediscovered\" with the help of a Malagasy local.",
-		"image": null,
+		"image": ""
 	},
 	"M41": {
 		"name": "Alluaudia Spiny Plant",
@@ -858,9 +845,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["yellow"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 0,
 		"points": 0,
@@ -868,7 +855,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-TROPHICCOUNT3",
 		"rulesText": "This card cannot be involved in a Turf War. Eco-points = the number of level 3 species.",
 		"flavorText": "A prickly perch.",
-		"image": null,
+		"image": ""
 	},
 	"M42": {
 		"name": "Comet Orchid",
@@ -880,9 +867,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["red"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["red"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 0,
 		"points": 0,
@@ -890,7 +877,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-HAWKMOTH",
 		"rulesText": "This card cannot be involved in a Turf War. When you play this card, you may immediately play a Hawk Moth from your hand. A Hawk Moth card played in this way must be attached to this card.",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M43": {
 		"name": "Dutchman's Pipe",
@@ -902,9 +889,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 0,
 		"points": 0,
@@ -912,7 +899,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-TROPHICCOUNT2",
 		"rulesText": "This card cannot be involved in a Turf War. Eco-points = the number of level 2 species.",
 		"flavorText": "The flowers of most Aristolochia emit a powerful stench - smells like rotting meat. Pee-eew!",
-		"image": null,
+		"image": ""
 	},
 	"M44": {
 		"name": "Carnivorous Pitcher Plant",
@@ -924,9 +911,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["yellow", "orange"],
-			"right": ["yellow", "orange"]
+			"right": ["yellow", "orange"],
 			"top": ["yellow", "orange"],
-			"bottom": ["yellow", "orange"],
+			"bottom": ["yellow", "orange"]
 		},
 		"energy": 0,
 		"points": 0,
@@ -934,7 +921,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-PITCHER", 
 		"rulesText": "Eco-points and Energy = the number of all Insect species.",
 		"flavorText": "The pretty plant is deadly to bugs. Digests insects for a meal.",
-		"image": null,
+		"image": ""
 	},
 	"M45": {
 		"name": "Voantany",
@@ -946,9 +933,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 0,
 		"points": 3,
@@ -956,7 +943,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-SUNRISEDRAW",
 		"rulesText": "This card cannot be involved in a Turf War. SUNRISE: At the beginning of your turn, you may draw an additional card.",
 		"flavorText": "Lemurs' favorite. Extremely rare and known as \"fruit of the earth.\"",
-		"image": null,
+		"image": ""
 	},
 	"M46": {
 		"name": "Grandidier Baobab",
@@ -968,9 +955,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["yellow"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 0,
 		"points": 3,
@@ -978,7 +965,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT",
 		"rulesText": "This card cannot be involved in a Turf War.",
 		"flavorText": "African tree of life. Sacred.",
-		"image": null,
+		"image": ""
 	},
 	"M47": {
 		"name": "White Lotus",
@@ -990,9 +977,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": ["blue"],
-			"bottom": ["blue"],
+			"bottom": ["blue"]
 		},
 		"energy": 0,
 		"points": 5,
@@ -1000,7 +987,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-ADJBOOST-1",
 		"rulesText": "This card cannot be involved in a Turf War. Your adjacent species gain +1 Energy.",
 		"flavorText": "An old and evolutionarily primitive beauty.",
-		"image": null,
+		"image": ""
 	},
 	"M48": {
 		"name": "Tamarind Tree",
@@ -1012,9 +999,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["yellow"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 0,
 		"points": 3,
@@ -1022,7 +1009,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-ADJBOOST-3",
 		"rulesText": "This card cannot be involved in a Turf War. Your adjacent species gain +3 Energy.",
 		"flavorText": "Lemur catta's favorite.",
-		"image": null,
+		"image": ""
 	},
 	"M49": {
 		"name": "Travelers Palm",
@@ -1034,9 +1021,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 0,
 		"points": 4,
@@ -1044,7 +1031,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-ADJBOOST-2",
 		"rulesText": "This card cannot be involved in a Turf War. Your adjacent species gain +2 Energy.",
 		"flavorText": "A welcome sign.",
-		"image": null,
+		"image": ""
 	},
 	"M50": {
 		"name": "Giant Bamboo",
@@ -1056,9 +1043,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["red"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["red"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 0,
 		"points": 4,
@@ -1066,7 +1053,7 @@ let deckMadagascar = {
 		"rulesType": "PLANT-GIANTBAMBOO",
 		"rulesText": "This card cannot be involved in a Turf War. If a Golden Bamboo Lemur is attached to this card, that card gains +5 Energy.",
 		"flavorText": "High in protein as well as cyanide.",
-		"image": null,
+		"image": ""
 	},
 	"M51": {
 		"name": "Indri",
@@ -1078,9 +1065,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["blue"],
-			"right": ["yellow", "blue"]
+			"right": ["yellow", "blue"],
 			"top": ["blue"],
-			"bottom": ["yellow", "blue"],
+			"bottom": ["yellow", "blue"]
 		},
 		"energy": 6,
 		"points": 3,
@@ -1088,7 +1075,7 @@ let deckMadagascar = {
 		"rulesType": "TURFMOMENTUM",
 		"rulesText": "If this species wins a Turf War, you may immediately play a Species card from you hand (playing that card does not start a Turf War).",
 		"flavorText": "\"There it is.\"",
-		"image": null,
+		"image": ""
 	},
 	"M52": {
 		"name": "Verreaux's Sifaka",
@@ -1100,9 +1087,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": ["yellow", "blue"],
-			"bottom": ["yellow", "blue"],
+			"bottom": ["yellow", "blue"]
 		},
 		"energy": 9,
 		"points": 5,
@@ -1110,7 +1097,7 @@ let deckMadagascar = {
 		"rulesType": "TURFINVADETROPHIC-2-3",
 		"rulesText": "This species gets +3 Energy when invading a level 2 species.",
 		"flavorText": "Great gliders. Capable of making giant jumps through trees - leaps of 30 ft are not uncommon!",
-		"image": null,
+		"image": ""
 	},
 	"M53": {
 		"name": "Woolly Lemur",
@@ -1122,9 +1109,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow", "blue"],
-			"right": ["yellow", "blue"]
+			"right": ["yellow", "blue"],
 			"top": [],
-			"bottom": ["yellow", "blue"],
+			"bottom": ["yellow", "blue"]
 		},
 		"energy": 8,
 		"points": 6,
@@ -1132,7 +1119,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Out at night with eyes so bright.",
-		"image": null,
+		"image": ""
 	},
 	"M54": {
 		"name": "Flat-tailed Tortoise",
@@ -1144,9 +1131,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["yellow", "blue"],
-			"right": ["yellow", "blue"]
+			"right": ["yellow", "blue"],
 			"top": ["yellow", "blue"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 7,
 		"points": 5,
@@ -1154,7 +1141,7 @@ let deckMadagascar = {
 		"rulesType": "TURFINVADETROPHIC-1-5",
 		"rulesText": "This species gets +5 Energy when invading a level 1 species.",
 		"flavorText": "Known locally as Kapidolo (ghost turtle).",
-		"image": null,
+		"image": ""
 	},
 	"M55": {
 		"name": "Katydid",
@@ -1166,9 +1153,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow", "blue"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": [],
-			"bottom": ["yellow", "blue"],
+			"bottom": ["yellow", "blue"]
 		},
 		"energy": 10,
 		"points": 5,
@@ -1176,7 +1163,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "What can a bug do to hide? Make like a tree and leaf!",
-		"image": null,
+		"image": ""
 	},
 	"M56": {
 		"name": "Spider Tortoise",
@@ -1188,9 +1175,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": ["yellow", "blue"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 10,
 		"points": 5,
@@ -1198,7 +1185,7 @@ let deckMadagascar = {
 		"rulesType": "TURFDIAGONAL",
 		"rulesText": "Predator: This species may start a Turf War with a species diagonally.",
 		"flavorText": "Tortoises are sacred and lucky! It is fady to harm them.",
-		"image": null,
+		"image": ""
 	},
 	"M57": {
 		"name": "Fire Millipede",
@@ -1210,9 +1197,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow", "blue"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": [],
-			"bottom": ["yellow", "blue"],
+			"bottom": ["yellow", "blue"]
 		},
 		"energy": 9,
 		"points": 5,
@@ -1220,7 +1207,7 @@ let deckMadagascar = {
 		"rulesType": "TURFFEROCITY-4",
 		"rulesText": "Ferocity 4: This species gets +4 Energy when it is the invading species.",
 		"flavorText": "Ready ... Aim ... Millipede!",
-		"image": null,
+		"image": ""
 	},
 	"M58": {
 		"name": "Madagascar Hissing Cockroach",
@@ -1232,9 +1219,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow", "blue"],
-			"right": ["yellow", "blue"]
+			"right": ["yellow", "blue"],
 			"top": ["yellow", "blue"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 12,
 		"points": 2,
@@ -1242,7 +1229,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Giant cockroaches that hisssssss. Hisssssss. Hissssssssssssssssss.",
-		"image": null,
+		"image": ""
 	},
 	"M59": {
 		"name": "Comet Moth",
@@ -1254,9 +1241,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": ["blue"],
-			"bottom": ["blue"],
+			"bottom": ["blue"]
 		},
 		"energy": 8,
 		"points": 5,
@@ -1264,7 +1251,7 @@ let deckMadagascar = {
 		"rulesType": "MORPH-1",
 		"rulesText": "Morph 1: You may draw 1 card at the beginning of any Turf War involving this species.",
 		"flavorText": "These gentle flyers have up to 8-inch wing spans. Tres bizarre: Adult comet moths have no mouths!",
-		"image": null,
+		"image": ""
 	},
 	"M60": {
 		"name": "Giraffe-necked Weevil",
@@ -1276,9 +1263,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue", "yellow"],
-			"right": ["blue", "yellow"]
+			"right": ["blue", "yellow"],
 			"top": ["blue", "yellow"],
-			"bottom": ["blue", "yellow"],
+			"bottom": ["blue", "yellow"]
 		},
 		"energy": 6,
 		"points": 4,
@@ -1286,7 +1273,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-MIGRATE-2",
 		"rulesText": "SUNRISE: Migrate: Shed 2 cards and move this species to any legal spot on the board (this movement does not start a Turf War).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M61": {
 		"name": "Clear-winged Butterfly",
@@ -1298,9 +1285,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 8,
 		"points": 4,
@@ -1308,7 +1295,7 @@ let deckMadagascar = {
 		"rulesType": "TURFINVADETROPHIC-3-8",
 		"rulesText": "This species gets +8 Energy when invading a species.",
 		"flavorText": "Field agents report in: Help Xeko learn the scientific name for this fancy flyer.",
-		"image": null,
+		"image": ""
 	},
 	"M62": {
 		"name": "Yellow-line Caterpillar",
@@ -1320,9 +1307,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue"],
-			"right": ["blue", "yellow"]
+			"right": ["blue", "yellow"],
 			"top": ["blue"],
-			"bottom": ["blue", "yellow"],
+			"bottom": ["blue", "yellow"]
 		},
 		"energy": 8,
 		"points": 6,
@@ -1330,7 +1317,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "This caterpillar eats and eats, munching leaves for a treat.",
-		"image": null,
+		"image": ""
 	},
 	"M63": {
 		"name": "Orange Pill Millipede",
@@ -1342,9 +1329,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue", "yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["blue"],
-			"bottom": ["blue"],
+			"bottom": ["blue"]
 		},
 		"energy": 8,
 		"points": 6,
@@ -1352,7 +1339,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Two pairs of legs on every ring, makes me so happy I could sing!",
-		"image": null,
+		"image": ""
 	},
 	"M64": {
 		"name": "Radiated Tortoise",
@@ -1364,9 +1351,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["blue"],
-			"right": ["blue", "yellow"]
+			"right": ["blue", "yellow"],
 			"top": ["blue"],
-			"bottom": ["blue", "yellow"],
+			"bottom": ["blue", "yellow"]
 		},
 		"energy": 10,
 		"points": 5,
@@ -1374,7 +1361,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "One of the rarest tortoises. Rod's favorite - a true star.",
-		"image": null,
+		"image": ""
 	},
 	"M65": {
 		"name": "Gold Tortoise Beetle",
@@ -1386,9 +1373,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["blue"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["blue"],
-			"bottom": ["blue"],
+			"bottom": ["blue"]
 		},
 		"energy": 7,
 		"points": 6,
@@ -1396,7 +1383,7 @@ let deckMadagascar = {
 		"rulesType": "FEROCITY-4",
 		"rulesText": "Ferocity 4: This species gets +4 Energy when it is the invading species.",
 		"flavorText": "This lucky bug looks like it's wearing a space suit.",
-		"image": null,
+		"image": ""
 	},
 	"M66": {
 		"name": "Madagascar Serpent Eagle",
@@ -1408,9 +1395,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["orange", "red"],
-			"right": ["red", "orange"]
+			"right": ["red", "orange"],
 			"top": [],
-			"bottom": ["orange", "red"],
+			"bottom": ["orange", "red"]
 		},
 		"energy": 5,
 		"points": 8,
@@ -1418,7 +1405,7 @@ let deckMadagascar = {
 		"rulesType": "TURFSPECIES-REPTILE-8",
 		"rulesText": "This species gets +8 Energy when involved in a Turf War with a Reptile species.",
 		"flavorText": "Recently rediscovered species - once thought to be extinct...",
-		"image": null,
+		"image": ""
 	},
 	"M67": {
 		"name": "Madagascar Leaf-nosed Snake",
@@ -1430,9 +1417,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["orange", "red"],
-			"right": []
+			"right": [],
 			"top": ["orange", "red"],
-			"bottom": ["orange", "red"],
+			"bottom": ["orange", "red"]
 		},
 		"energy": 6,
 		"points": 11,
@@ -1440,7 +1427,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Is that branch mooooooving? It's a snake ... make that two snakes! The male has a \"stick\" nose and the female a \"leaf\".",
-		"image": null,
+		"image": ""
 	},
 	"M68": {
 		"name": "Olive Ridley Sea Turtle",
@@ -1452,9 +1439,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["orange", "red"],
-			"right": []
+			"right": [],
 			"top": ["orange", "red"],
-			"bottom": ["orange", "red"],
+			"bottom": ["orange", "red"]
 		},
 		"energy": 10,
 		"points": 7,
@@ -1462,7 +1449,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-MIGRATE-2",
 		"rulesText": "SUNRISE: Migrate: Shed 2 cards and move this species to any legal spot on the board (this movement does not start a Turf War).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M69": {
 		"name": "Madagascan Tree Boa",
@@ -1474,9 +1461,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["orange", "red"],
-			"right": ["orange", "red"]
+			"right": ["orange", "red"],
 			"top": [],
-			"bottom": ["orange", "red"],
+			"bottom": ["orange", "red"]
 		},
 		"energy": 10,
 		"points": 6,
@@ -1484,7 +1471,7 @@ let deckMadagascar = {
 		"rulesType": "MORPH-2",
 		"rulesText": "Morph 2: You may draw up to 2 cards at the beginning of any Turf War involving this species.",
 		"flavorText": "Sssssssssnakes are sssssssacred.",
-		"image": null,
+		"image": ""
 	},
 	"M70": {
 		"name": "Sickle-billed Vanga",
@@ -1496,9 +1483,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["red"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["orange"],
-			"bottom": ["red", "orange"],
+			"bottom": ["red", "orange"]
 		},
 		"energy": 8,
 		"points": 8,
@@ -1506,7 +1493,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-WARNING",
 		"rulesText": "SUNRISE: Warning Call: At the beginning of your turn, you may move your adjacent species to another legal spot on the board (this move does not cause a Turf War).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M71": {
 		"name": "Madagascar Crested Ibis",
@@ -1518,9 +1505,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["red"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["red", "orange"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 11,
 		"points": 10,
@@ -1528,7 +1515,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Large terrestrial bird with chestnut coloring, green crest, large curved bill and white wings. SQUAWK!",
-		"image": null,
+		"image": ""
 	},
 	"M72": {
 		"name": "Scorpion",
@@ -1540,9 +1527,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["orange", "red"],
-			"right": ["orange", "red"]
+			"right": ["orange", "red"],
 			"top": [],
-			"bottom": ["orange", "red"],
+			"bottom": ["orange", "red"]
 		},
 		"energy": 13,
 		"points": 5,
@@ -1550,7 +1537,7 @@ let deckMadagascar = {
 		"rulesType": "TURFDIAGONAL",
 		"rulesText": "Predator: This species may start a Turf War with a species diagonally.",
 		"flavorText": "Beware the scorpion's sting.",
-		"image": null,
+		"image": ""
 	},
 	"M73": {
 		"name": "Madagascar Sideneck Turtle",
@@ -1562,9 +1549,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["orange"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 12,
 		"points": 9,
@@ -1572,7 +1559,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-MIGRATE-2",
 		"rulesText": "SUNRISE: Migrate: Shed 2 cards and move this species to any legal spot on the board (this movement does not start a Turf War).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M74": {
 		"name": "Madagascar Ground Boa",
@@ -1584,9 +1571,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["red"],
-			"right": []
+			"right": [],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 9,
 		"points": 11,
@@ -1594,7 +1581,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Ssssssssss ... I have room for ... ssssssssss ... one more.",
-		"image": null,
+		"image": ""
 	},
 	"M75": {
 		"name": "Madagascar Heron",
@@ -1606,9 +1593,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["red"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["orange"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 10,
 		"points": 8,
@@ -1616,7 +1603,7 @@ let deckMadagascar = {
 		"rulesType": "DEFEND-4-4",
 		"rulesText": "This species gets +4 Energy when invaded by a level 4 species.",
 		"flavorText": "This wetland wonder likes fresh fish.",
-		"image": null,
+		"image": ""
 	},
 	"M76": {
 		"name": "Striped Civet",
@@ -1628,9 +1615,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange", "red"]
+			"right": ["orange", "red"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 12,
 		"points": 9,
@@ -1638,7 +1625,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Fat tails! Striped Civets store fat reserves in their tails as an energy source for winter.",
-		"image": null,
+		"image": ""
 	},
 	"M77": {
 		"name": "Madagascar Red Owl",
@@ -1650,9 +1637,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["red"],
-			"right": ["orange", "red"]
+			"right": ["orange", "red"],
 			"top": ["red"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 13,
 		"points": 11,
@@ -1660,7 +1647,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "One of the 50 rarest birds in the world. Voice: Hissing call.",
-		"image": null,
+		"image": ""
 	},
 	"M78": {
 		"name": "Loggerhead Sea Turtle",
@@ -1672,9 +1659,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["red"],
-			"bottom": ["orange", "red"],
+			"bottom": ["orange", "red"]
 		},
 		"energy": 12,
 		"points": 8,
@@ -1682,7 +1669,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-MIGRATE-2",
 		"rulesText": "SUNRISE: Migrate: Shed 2 cards and move this species to any legal spot on the board (this movement does not start a Turf War).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M79": {
 		"name": "Leatherback Sea Turtle",
@@ -1694,9 +1681,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["red"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["orange"],
-			"bottom": ["orange"],
+			"bottom": ["orange"]
 		},
 		"energy": 12,
 		"points": 10,
@@ -1704,7 +1691,7 @@ let deckMadagascar = {
 		"rulesType": "NEST-4",
 		"rulesText": "Nest 4: This species gets +4 Energy when it is the defending species.",
 		"flavorText": "Found from tropical to sub-polar oceans.",
-		"image": null,
+		"image": ""
 	},
 	"M80": {
 		"name": "Panther Chameleon",
@@ -1716,9 +1703,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["red"],
-			"right": ["red"]
+			"right": ["red"],
 			"top": ["red", "orange"],
-			"bottom": ["red"],
+			"bottom": ["red"]
 		},
 		"energy": 10,
 		"points": 9,
@@ -1726,7 +1713,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-WARNING",
 		"rulesText": "SUNRISE: Warning Call: At the beginning of your turn, you may move an adjacent species to another legal spot on the board (this move does not cause a Turf War).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M81": {
 		"name": "Thorn Spider",
@@ -1738,9 +1725,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow", "orange"],
-			"right": []
+			"right": [],
 			"top": ["orange", "yellow"],
-			"bottom": ["yellow", "orange"],
+			"bottom": ["yellow", "orange"]
 		},
 		"energy": 10,
 		"points": 5,
@@ -1748,7 +1735,7 @@ let deckMadagascar = {
 		"rulesType": "FEROCITY-2",
 		"rulesText": "Ferocity 2: This species gets +2 Energy when it is the invading species.",
 		"flavorText": "Fake eyes fake out!",
-		"image": null,
+		"image": ""
 	},
 	"M82": {
 		"name": "Oustalet's Chameleon",
@@ -1760,9 +1747,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["yellow", "orange"],
-			"right": ["yellow", "orange"]
+			"right": ["yellow", "orange"],
 			"top": [],
-			"bottom": ["yellow", "orange"],
+			"bottom": ["yellow", "orange"]
 		},
 		"energy": 10,
 		"points": 5,
@@ -1770,7 +1757,7 @@ let deckMadagascar = {
 		"rulesType": "NEST-3",
 		"rulesText": "Nest 3: This species gets +3 Energy when it is the defending species.",
 		"flavorText": "\"Go about life the way a chameleon walk; face what is in front and look back at what is behind.\" - Malagasy Proverb",
-		"image": null,
+		"image": ""
 	},
 	"M83": {
 		"name": "Van Dam's Vagna",
@@ -1782,9 +1769,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["yellow", "orange"],
-			"right": ["yellow", "orange"]
+			"right": ["yellow", "orange"],
 			"top": ["yellow", "orange"],
-			"bottom": [],
+			"bottom": []
 		},
 		"energy": 10,
 		"points": 6,
@@ -1792,7 +1779,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-MIGRATE-2",
 		"rulesText": "SUNRISE: Migrate Shed 2 cards and move this species to any legal spot on the board (this movement does not start a Turt War).",
 		"flavorText": "Calls TSEEANG very loudly.",
-		"image": null,
+		"image": ""
 	},
 	"M84": {
 		"name": "Greater Hedgehog Tenrec",
@@ -1804,9 +1791,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow", "orange"],
-			"right": []
+			"right": [],
 			"top": ["yellow", "orange"],
-			"bottom": ["yellow", "orange"],
+			"bottom": ["yellow", "orange"]
 		},
 		"energy": 11,
 		"points": 6,
@@ -1814,7 +1801,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "Shake, rattle and roll! Masters of stridulation (the vibrating of spines to produce a rasping sound) this is one animal that you don't want to upset!",
-		"image": null,
+		"image": ""
 	},
 	"M85": {
 		"name": "Aye-aye",
@@ -1826,9 +1813,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["orange"],
-			"right": ["yellow", "orange"]
+			"right": ["yellow", "orange"],
 			"top": ["yellow"],
-			"bottom": ["yellow", "orange"],
+			"bottom": ["yellow", "orange"]
 		},
 		"energy": 10,
 		"points": 7,
@@ -1836,7 +1823,7 @@ let deckMadagascar = {
 		"rulesType": "TURFSPECIES-INSECT-8",
 		"rulesText": "This species gets +4 Energy when invading an Insect species.",
 		"flavorText": "This nocturnal lemur has continuously-growing incisor teeth and EXTRA-long middle fingers (great for digging grubs).",
-		"image": null,
+		"image": ""
 	},
 	"M86": {
 		"name": "Giant Jumping Rat",
@@ -1848,9 +1835,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["yellow", "blue"],
-			"bottom": ["blue"],
+			"bottom": ["blue"]
 		},
 		"energy": 6,
 		"points": 6,
@@ -1858,7 +1845,7 @@ let deckMadagascar = {
 		"rulesType": "MORPH-3",
 		"rulesText": "Morph 3: You may draw up to 3 cards at the beginning of any Turf War involving this species.",
 		"flavorText": "Is that a rat or a kangaroo???",
-		"image": null,
+		"image": ""
 	},
 	"M87": {
 		"name": "Brown Mouse Lemur",
@@ -1870,9 +1857,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["blue"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 5,
 		"points": 4,
@@ -1880,7 +1867,7 @@ let deckMadagascar = {
 		"rulesType": "TURFMOMENTUM",
 		"rulesText": "If this species wins a Turf War, you may immediately play a species card from your hand (playing that card does not start a Turf War).",
 		"flavorText": "The smallest primate on the planet is as small as a walnut!",
-		"image": null,
+		"image": ""
 	},
 	"M88": {
 		"name": "Madagascar Flying Fox",
@@ -1892,9 +1879,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["blue", "yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["yellow"],
-			"bottom": ["blue", "yellow"],
+			"bottom": ["blue", "yellow"]
 		},
 		"energy": 12,
 		"points": 4,
@@ -1902,7 +1889,7 @@ let deckMadagascar = {
 		"rulesType": "TURFDIAGONAL",
 		"rulesText": "Predator: This species may start a Turf War with a species diagonally.",
 		"flavorText": "Quiet shadows come gliding in. These nocturnal flyers are seed spreaders.",
-		"image": null,
+		"image": ""
 	},
 	"M90": {
 		"name": "Madagascar Ground Gecko",
@@ -1914,9 +1901,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["orange"]
+			"right": ["orange"],
 			"top": ["yellow"],
-			"bottom": ["yellow", "orange"],
+			"bottom": ["yellow", "orange"]
 		},
 		"energy": 10,
 		"points": 5,
@@ -1924,7 +1911,7 @@ let deckMadagascar = {
 		"rulesType": "MORPH-2",
 		"rulesText": "Morph 2: You may draw up to 2 cards at the beginning of any Turf War involving this species.",
 		"flavorText": "Well grounded - Pictus does not climb walls.",
-		"image": null,
+		"image": ""
 	},
 	"M91": {
 		"name": "Running Coua",
@@ -1936,9 +1923,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["orange"],
-			"right": ["orange", "yellow"]
+			"right": ["orange", "yellow"],
 			"top": ["yellow"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 10,
 		"points": 5,
@@ -1946,7 +1933,7 @@ let deckMadagascar = {
 		"rulesType": "SUNRISE-MIGRATE-2",
 		"rulesText": "SUNRISE: Migrate: Shed 2 cards and move this species to any legal spot on the board (this movement does not start a Turf War).",
 		"flavorText": "Vivid blue eye-patch.",
-		"image": null,
+		"image": ""
 	},
 	"M92": {
 		"name": "Coppery Day Gecko",
@@ -1958,9 +1945,9 @@ let deckMadagascar = {
 		"rarity": "Common",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["blue"]
+			"right": ["blue"],
 			"top": ["yellow"],
-			"bottom": ["blue", "yellow"],
+			"bottom": ["blue", "yellow"]
 		},
 		"energy": 9,
 		"points": 6,
@@ -1968,7 +1955,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "To hear a gecko bark is good luck (and good hearing)!",
-		"image": null,
+		"image": ""
 	},
 	"M93": {
 		"name": "White-breasted Mesite",
@@ -1980,9 +1967,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["orange", "yellow"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 7,
 		"points": 8,
@@ -1990,7 +1977,7 @@ let deckMadagascar = {
 		"rulesType": "DEFEND-2-4",
 		"rulesText": "This species gets +4 Energy when invaded by a level 2 species.",
 		"flavorText": "Walks slowly, flicking over leaves in search of snacks.",
-		"image": null,
+		"image": ""
 	},
 	"M94": {
 		"name": "Ring-tailed Lemur",
@@ -2002,9 +1989,9 @@ let deckMadagascar = {
 		"rarity": "Rare",
 		"borders": {
 			"left": ["blue"],
-			"right": ["yellow"]
+			"right": ["yellow"],
 			"top": ["yellow", "blue"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 8,
 		"points": 5,
@@ -2012,7 +1999,7 @@ let deckMadagascar = {
 		"rulesType": "DEFEND-1-4",
 		"rulesText": "This species gets +4 Energy when invaded by a level 1 species.",
 		"flavorText": "Ambassador. Social, keen sense of smell, and a fabulous ring tail.",
-		"image": null,
+		"image": ""
 	},
 	"M95": {
 		"name": "Madagascar Teal",
@@ -2024,9 +2011,9 @@ let deckMadagascar = {
 		"rarity": "Endangered",
 		"borders": {
 			"left": ["yellow"],
-			"right": ["yellow", "blue"]
+			"right": ["yellow", "blue"],
 			"top": ["orange"],
-			"bottom": ["yellow"],
+			"bottom": ["yellow"]
 		},
 		"energy": 5,
 		"points": 2,
@@ -2034,7 +2021,7 @@ let deckMadagascar = {
 		"rulesType": "DEFEND-3-5",
 		"rulesText": "This species gets +5 Energy when invaded by a level 3 species.",
 		"flavorText": "Small dabbling duck. The rarest duck in the world.",
-		"image": null,
+		"image": ""
 	},
 	"M96": {
 		"name": "Compass",
@@ -2056,7 +2043,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Move a species you own to another legal spot on the board (this movement does not start a Turf War).",
 		"flavorText": "The compass enables field agents to move like magic. -XM",
-		"image": null,
+		"image": ""
 	},
 	"M97": {
 		"name": "Three Totems",
@@ -2078,7 +2065,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Choose a player. That player draws 3 cards.",
 		"flavorText": "Local culture is almost as endangered as the animals. Three is considered a lucky number - whose luck is it? - ZX",
-		"image": null,
+		"image": ""
 	},
 	"M98": {
 		"name": "Field Binoculars",
@@ -2100,7 +2087,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Look at an opponent's hand and choose a card. That card is discarded.",
 		"flavorText": "My Xeko binocs seem to have some new features... can't wait to test these tomorrow. - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M99": {
 		"name": "Eco-map",
@@ -2122,7 +2109,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Look at the top 3 crds in your Draw Pile, keep one and arrange the rest on top of your Draw Pile in any order.",
 		"flavorText": "The lemurs on my eco-map are moving ... wonder what's up? - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M100": {
 		"name": "Field Kit",
@@ -2144,7 +2131,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Search your Draw Pile for a level 0 Species card and put it in your hand. Shuffle your Draw Pile.",
 		"flavorText": "Spare socks came in handy after a day tracking lemurs in the rainforest. - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M101": {
 		"name": "Ambassador's Pass",
@@ -2166,7 +2153,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Move any species to another legal spot on the board (this does no start a Turf War).",
 		"flavorText": "Send thank you to King Andrianampoinimerinandriansimitoviaminandriampanjaka. - ZA",
-		"image": null,
+		"image": ""
 	},
 	"M102": {
 		"name": "Forest Fire",
@@ -2188,7 +2175,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Opponent sheds 5 cards.",
 		"flavorText": "A fire wiped out a good deal of habitat in the Northeast. Wonder what caused it? - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M103": {
 		"name": "16 Palm Nuts",
@@ -2210,7 +2197,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Choose a player. That player draws 5 cards.",
 		"flavorText": "An ombiasy read my palm nuts - said Dozers were afoot. -XFA",
-		"image": null,
+		"image": ""
 	},
 	"M104": {
 		"name": "Code: LAMINA",
@@ -2232,7 +2219,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "No Boost cards may be played this turn.",
 		"flavorText": "Encoded message from XHQ.",
-		"image": null,
+		"image": ""
 	},
 	"M105": {
 		"name": "Peace Offering",
@@ -2254,7 +2241,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Play a Species card right now. This card does not start a Turf War.",
 		"flavorText": "\"Fandriampahalemana\" means \"peace\" in Malagasy. - ZX",
-		"image": null,
+		"image": ""
 	},
 	"M106": {
 		"name": "Elemental: Air",
@@ -2276,7 +2263,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Draw 2 cards. Shuffle this card back into your Draw Pile.",
 		"flavorText": "Elemental at your service!",
-		"image": null,
+		"image": ""
 	},
 	"M107": {
 		"name": "Elemental: Water",
@@ -2298,7 +2285,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Shuffle 3 random cards from your Shed Pile into your Draw Pile.",
 		"flavorText": "Elemental at your service!",
-		"image": null,
+		"image": ""
 	},
 	"M108": {
 		"name": "Elemental: Earth",
@@ -2320,7 +2307,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Discard from your hand as many cards as you wish. Draw cards until you have 5 in your hand.",
 		"flavorText": "Elemental at your service!",
-		"image": null,
+		"image": ""
 	},
 	"M109": {
 		"name": "New Reserve",
@@ -2342,7 +2329,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "You may put a second species in play this turn. Both Species cards may be involved in Turf Wars as normal.",
 		"flavorText": "President declared new reserve - can't wait to tell XHQ! - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M110": {
 		"name": "Critical Levels",
@@ -2364,7 +2351,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Choose one of your species in play and one of your opponent's species in play. both are moved to their owners' Shed Piles.",
 		"flavorText": "Urgent: Warning sign spotted - habitat too weak. Need more help. - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M111": {
 		"name": "Smuggler Captured",
@@ -2386,7 +2373,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Choose one of your species in play and return it to your hand. You may replace it with a Species card from you hand (this card does not start a Turf War and must be a legal play).",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M112": {
 		"name": "Ancient Text",
@@ -2408,7 +2395,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Look at the top 5 cards in your Draw Pile, keep one and arrange the rest on top of your Draw Pile in any order.",
 		"flavorText": "Sorabe found by XFA - what an incredible knowledge trove! - ZA",
-		"image": null,
+		"image": ""
 	},
 	"M113": {
 		"name": "Vintana: Destiny",
@@ -2430,29 +2417,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Search your Draw Pile for any card and put it into your hand. If you choose Golden Bamboo Lemur, you may put it directly into play. Shuffle your Draw Pile.",
 		"flavorText": "",
-		"image": null,
-	},
-	"M": {
-		"name": "",
-		"pack": "Madagascar",
-		"number": ,
-		"cardType": "Xeko",
-		"speciesType": "",
-		"speciesName": "",
-		"rarity": "",
-		"borders": {
-			"top": [],
-			"bottom": [],
-			"left": [],
-			"right": []
-		},
-		"energy": 0,
-		"points": 0,
-		"level": ,
-		"rulesType": "",
-		"rulesText": "",
-		"flavorText": "",
-		"image": null,
+		"image": ""
 	},
 	"M114": {
 		"name": "Dozer Mischief",
@@ -2474,7 +2439,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Move a level 1 species from the field to its owner's Shed Pile.",
 		"flavorText": "Dozers strike again! - XFA",
-		"image": null,
+		"image": ""
 	},
 	"M115": {
 		"name": "Elemental: Fire",
@@ -2496,7 +2461,7 @@ let deckMadagascar = {
 		"rulesType": "",
 		"rulesText": "Choose a level 4 species in play and move it to its owner's Shed Pile.",
 		"flavorText": "Elemental at your service!",
-		"image": null,
+		"image": ""
 	},
 	"M116": {
 		"name": "Madagascar - Hotspot",
@@ -2514,14 +2479,14 @@ let deckMadagascar = {
 		},
 		"energy": 0,
 		"points": 0,
-		"level": [],
 		"rulesType": "",
 		"rulesText": "",
 		"flavorText": "",
-		"image": null,
+		"image": ""
 	}
 }
 
 Object.freeze(deckMadagascar);
 
-module.exports = deckMadagascar;
+// lol module is a Node-only concept
+//module.exports = deckMadagascar;

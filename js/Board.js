@@ -47,8 +47,12 @@ class Board {
 
 	// place a card on the board
 	placeCard(_card, _row, _col) {
-		if (this[validatePosition])
+		if (this[validatePosition]) {
 			this._board[_row][_col] = _card;
+			return true;
+		}
+
+		return false;
 	}
 
 	// removes a card from the board

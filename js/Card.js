@@ -1,5 +1,5 @@
 class Card {
-	constructor(_player, _template) {
+	constructor(_template, _player) {
 		this._player = _player;
 
 		this._id = _template.pack + _template.number;

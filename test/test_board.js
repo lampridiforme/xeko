@@ -152,6 +152,14 @@ describe ('Board', function() {
 		it ('should only place two no-border cards together if there is another border in common between the cards', function() {
 			// TODO: test situation where player attempts to place cards together based on no-border side
 		});
+
+		it ('should update the card\'s internal location to be the same as the specified row and column', function() {
+			// TODO: test to see if the card instance's row and col match the expected location
+		});
+
+		it ('should not update the card\'s internal location when placement is unsucessful', function() {
+			// TODO: similar to above, except row and col should NOT change if placeCard does not actualy place the card
+		});
 	});
 
 	describe ('removeCard', function() {

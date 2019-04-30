@@ -18,6 +18,8 @@ class BoostCard extends Card {
 
 	// ----- HELPERS -----
 	// Uses turf war context
+	// TODO: move this into another type of object, maybe some sort of factory
+	// That way initializing the effect system will be a little more module and open up the possibility of mocking creation
 	[createEffect]() {
 		let effect;
 
@@ -197,7 +199,8 @@ class BoostCard extends Card {
 				};
 				break;
 			default:
-				effect = (context, boost) => ();
+				effect = (context, boost) => {};
+				break;
 		}
 
 		return effect;
