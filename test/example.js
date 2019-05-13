@@ -30,3 +30,4 @@ describe('Array', function() {
 */
 
 // end result: 3 passed, 1 failed
+// to run tests (since I keep forgetting how to run them): npm test test/* (or replace * with a specific test script)

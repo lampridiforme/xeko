@@ -1,0 +1,151 @@
+This Glossary is copied from the Xeko Official Rule Book 2nd Edition
+
+adjacent: Cards that are linked are considered adjacent. Cards that are next to one another with their blank sides touching are also considered adjacent, even though they're not linked.
+
+blank sides: Sides of a Species card that don't have a link on them. Blank sides can only be adjacent to other blank sides in the field. These aren't considered links.
+
+Boost Cards: Boost cards are played during Turf Wars. You may play a Boost card even when it isn't you turn. Boost cards boost the Energy of the card they're linked to, follow all rules for linking cards, and are moved to the shed pile at the end of a Turf War.
+
+card powers: Rules text on Species cards. These are effects that take place under certain conditions.
+
+Conservation bonus: This is an Eco-point bonus received for cards left in a player's draw pile at the end of a game. The conservation bonus equals one-half the total number of cards left in the draw pile, rounded up.
+
+Costa Rica: Costa Rica is part of the Mesoamerica hotspot and is a model for forward-thinking conservation. Tropical jungles, miles of coastline, and even active volcanoes make this one of the most dynamic ecosystems in the world. Mission: Costa Rica cards carry the mark CR 040/150.
+
+deck: These are the cards from your collection that you'll play in the game. Your deck can't contain more than 40 cards (it can contain less, though), and it can't include more than three copies of the same cards. Once the game begins, your deck becomes your starting draw pile.
+
+defending player: When it isn't your turn and one of your Species becomes involved in a Turf War, you're considered the defending player.
+
+defending Species: When it isn't your turn and one of your Species becomes involved in a Turf War, your Species in considered the defending Species.
+
+diagonal: Cards in the field that touch only at the corners are considered diagonal.
+
+the Diff: The point difference in each Turf War, and the number of cards that must be shed.
+
+discard: Take a card from your hand and put it in its owner's shed pile.
+
+Double-link bonus: Playing and linking a Species card to two cards earns a Double-link bonus of +5 Energy for the rest of the Turf War. See also Multi-link bonus.
+
+Dozers: Dozers complicate Xeko missions. These seemingly good-intentioned, everyday people-some organized, most not-spread rumors and misinformation, damage or dismantle ecosystems, and muddy ecological knowledge. Like all of us, Dozers aren't all bad or all good. They're simply misinformed, poorly schooled, zoned on TV, brainwashed, and/or have bad manners.
+
+draw pile: This is the deck of cards you use to play the game. No one can look at the cards in your draw pile (including you!), but you're allowed to count the number of cards in anyone's draw pile at any time in the game. Keep your draw pile face down and shuffle it only when the rule book or rules text says to.
+
+Eco-points: These are points you accumulate by playing Species cards. At the end of the game, the winner is the player with the most Eco-points. The gemstone that surrounds this value is always red, but the shape may vary. See p. 4, "The Basics - Determining a winner."
+From Page 4 of the Official Rule Book 2nd Edition - 
+Species Eco-Points
++ 1/2 Cards from draw Pile
+-----------------------------
+Total Eco-Points
+
+The player with the highest Eco-points total is the winner.
+If there is a tie, the player who had cards left in their draw pile is the winner.
+
+effects: These are temporary rules that stop at the end of the turn (the SUNSET step) and appear as rules text on Boost card, Xeko cards, and some Species cards.
+
+endemic: Ecology term for species found only in a particular region.
+
+Energy: This is a number on Species cards that's used primarily to determine the winner of a Turf War. The Energy value can be modified during a turn or a Turf War. See p. 14, "Turf War."
+From Page 14 of the Official Rule Book 2nd Edition - 
+Activate Card Powers, Play Boost cards, and Apply Multi-link Bonuses are listed there as items that can modify a cards Energy.
+
+Ferocity: A card power that changes the Energy of your Species card. See p. 17, "Species Card Powers - Ferocity."
+From Page 17 of the Official Rule Book 2nd Edition - 
+This power adds to the Species card's Energy when you're the invading player. "Invading" happens when you're playing the Species card.
+
+field: The area where your Species cards are played.
+
+flavor text: Extra information about the card that has no effect on game play.
+
+Golden Rule: The game rules can be overwritten by the text on the cards. When in doubt, follow the rules on the cards.
+
+hand: At the beginning of the game, you draw five cards from the top of your deck to create your hand. No one except you can look at the cards in your hand. At the beginning of your turn, you'll draw one card from the top of your deck into your hand. There's no limit to the number of cards you can have in your hand.
+
+hotspot: Biodiversity hotspots, first identified by Norman Myers, are the most ecologically rich and most critically endangered habitats around the planet. Xeko missions are focused on these hotspots.
+
+Hotspot card: The starting card, shared by both players, for every Xeko game. The Hotspot isn't counted as a card when playing a Xeko game.
+
+invading player: The player whose turn it is. Specifically, the player who plays a Species card and starts a Turf War is considered the invading player.
+
+invading Species: On your turn, if you choose to play a Species card that starts a Turf War, that Species is considered the invading Species.
+
+keywords: Labels for card powers that occur frequently.
+
+link: The colored half-hexagon areas on the edges of a card. Links can contain many different colors.
+
+linking: When you play a Species or Boost card, put it adjacent to a card already in the field. Line up the links with your card facing you. The cards must share colors between the links that are now adjacent.
+
+Madagascar: The hottest hotspot on Earth and the first Xeko mission, Madagascar is an island nation off the coast of Africa. Madagascar is home to over 5% of the planet's plant and animal species. Over 80% of the species found in Madagascar are endemic. Mission: Madagascar cards carry the mark MM 028/115.
+
+Migrate: A card power that lets you move that card to a different location in the field. Moving a card this way doesn't start a Turf War. See p.18, "Species Card Powers - Migrate."
+From Page 18 of the Official Rule Book 2nd Edition -
+This power lets you move the Species to another location in the field. (You might want to do this to set up a Multi-link bonus for later in your turn, for example.) You can use this power only during the SUNRISE step of your turn and only once a turn. Because this power says "you may," you can choose not to use it.
+
+To use this power, you must shed (move from the top of your deck to your shed pile) the number of cards written in the rules text. You can't move the Species card until you've shed the appropriate number of cards. The Species card must be able to link with other cards in the new location just as if it were being played from your hand. The move doesn't count as playing the card from your hand, though so it doesn't trigger any effects that happen when you play a card. Moving a card with this power doesn't start a Turf War.
+
+Morph: A card power that lets you draw cards. See p. 17, "Species Card Powers - Morph."
+From Page 17 of the Official Rule Book 2nd Edition -
+This power lets you draw extra cards when the Species becomes involved in a Turf War as either the invading or defending Species. This effect happens on any player's turn. The number after the word "Morph" is how many cards you draw (so for example, "Morph 3" gives you three extra cards). You draw the cards before Boost cards are played and before Multi-link bonuses are applied.
+
+Multi-link bonus: This is a change to the Energy of a Species card based on its location in the field. By playing and linking a Species to more than one card, you generate a Multi-link bonus. Multi-link bonuses don't apply to Boost cards. The bonuses are +5 for linking to two cards, +10 for linking to three cards, and +15 for linking to four cards.
+
+Nest: A card power that changes the energy of your Species card. See p. 17, "Species Card Power - Nest."
+From Page 17 of the Official Rule Book 2nd Edition -
+This power adds to the Species card's Energy when you're the defending player. "Defending" means that you're not the one playing a Species card.
+
+opposing Species: Any Species card that's not controlled by you in a Turf War.
+
+Predator: A card power that lets you start a Turf War with a Species card that's diagonal to the Species card you're playing. See p. 17, "Species Card Powers - Predator."
+From Page 17 of the Official Rule Book 2nd Edition -
+This power lets you start a Turf War with a Species card that's diagonal to the Species card you're playing rather than next to it. This effect occurs only when you play a Species card. The Species card you play still must link to another card in the field as usual.
+
+If the Species card with Predator is linked to a Species card controlled by another player, the invading player may choose to start a Turf War with one of the adjacent Species cards OR with a Species card positioned diagonally.
+
+You can only use the Predator power once, when you play the card. You can't use it to start a Turf War later.
+
+Quad-link bonus: Playing and linking a Species card to four cards earns a Quad-link bonus, worth +15 Energy for the rest of the turf War. See also "Multi-link bonus."
+
+requirements: The small brown symbols in the lower left corner of Species and Xeko cards. To play a Xeko card, its requirement symbols must be on the Species cards you already have in the field. See p.7, "Card Types - Xeko Cards."
+
+Sacrifice: A card power that lets you put the Species cards in a Turf War into the shed pile. You can use this power only if you win the Turf War by a fixed amount. See p.17, "Species Card Powers - Sacrifice."
+From Page 17 of the Official Rule Book 2nd Edition -
+This power lets you put the Species cards involved in a Turf War into their owners' shed piles. You can use this power only if you're the winner of the Turf War and The Diff is equal to or higher than the number written after the word "Sacrifice." If you choose to use this power, you must move both Species cards in the Turf War; you can't choose to only put the other player's Species card in the shed pile.
+
+shed: Take a card from the top of your draw pile and put it in your shed pile.
+
+shed pile: This is where your cards go after you're through with them. Your Xeko and Boost cards go to your shed pile after their effect are finished. Keep the cards in your shed pile face-up. Anyone can look at them at any time.
+
+Sneak: A card power that adds Energy to your Species if it gets a Multi-link bonus. See p. 18, "Species Card Power - Sneak."
+From Page 18 of the Official Rule Book 2nd Edition -
+This power increases the amount of a Multi-link bonus by the number written after the word "Sneak." This effect is automatically activated when the Species with this power is in a Turf War and a Multi-link bonus would be applied. The Sneak value is part of the Multi-link bonus, and you add it during the Apply Multi-link Bonuses phase of the Turf War. You can't choose not to use this power.
+
+Species card: A type of card representing real plants and animals. These cards may start Turf Wars when you play them. These cards include Eco-points and Energy.
+
+SUNRISE: A step in your turn that triggers card power that include the word "SUNRISE." No one can play cards during the SUNRISE step. See p. 18, "Species Card Power - SUNRISE."
+From Page 18 of the Official Rule Book 2nd Edition -
+You can use these special card powers on your Species in the field during the SUNRISE step of your turn, right after you Draw One Card.
+
+SUNSET: The final step in a turn. All temporary effects and card powers end. No one can play cards during the SUNSET step. See p. 18, "Species Card Power - SUNSET."
+From Page 18 of the Official Rule Book 2nd Edition -
+You can use these special card powers on your Species in the field during the SUNSET step of your turn, right after any Turf Wars are completed.
+
+trigger: Cause to occur. Some owners are triggered by certain conditions in the game, including steps.
+
+Triple-link bonus: Playing and linking a Species card to three cards earns a Triple-link bonus, worth +10 energy for the rest of the Turf War. See also Multi-link bonus.
+
+Warning Call: A card power that lets you move an adjacent Species card you control to a new location in the field. This kind of movement doesn't start a Turf War. See p. 18, "Species Card Powers - Warning Call."
+From Page 18 of the Official Rule Book 2nd Edition -
+This power lets you choose another of your Species cards and move it to another location in the field. (You might want to do this in order to se up a Multi-link bonus for later in your turn, for example.) You can use this power only during the SUNRISE step of you turn and only once a turn. Because this power says "you may," you can choose not to use it.
+
+To use this power, choose a Species card you control that's linked to the card with the Warning Call power and move it to another spot in the field. The Species card must be able to link with other cards in the new location just as if it were being played from your hand. The move doesn't count as playing the card from your hand, though, so it doesn't trigger any effects that happen when you play a card.
+
+Moving a card with this power doesn't start a Turf War.
+
+Xeko card: A special card that describes temporary rules changes that last until the SUNSET step of the current turn. You play a Xeko card by reading the rules test aloud; they're not put in the field. Xeko cards go to the shed pile after they're played.
+
+Xeko Apprentice and Master: An Apprentice is someone learning how to support their ecosystems. A Master has honed these skills.
+
+Xekopedia: A treasure trove of Xeko mysteries and knowledge that has been logged and passed down through the ages by Xeko Masters.
+
+Xeko-system: This is the combined result of all connected Species cards in the field. At the end of the game, take a moment to check out your Xeko-system and notice the connections.
+
+X-list: List of cards located on www.xekogame.com that are temporarily suspended or retired from game play.

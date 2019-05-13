@@ -1,0 +1,22 @@
+"M": {
+	"name": "",
+	"pack": "Madagascar",
+	"number": -1,
+	"cardType": "Xeko",
+	"speciesType": "",
+	"speciesName": "",
+	"rarity": "",
+	"borders": {
+		"top": [],
+		"bottom": [],
+		"left": [],
+		"right": []
+	},
+	"energy": 0,
+	"points": 0,
+	"level": [-1],
+	"rulesType": "",
+	"rulesText": "",
+	"flavorText": "",
+	"image": ""
+}

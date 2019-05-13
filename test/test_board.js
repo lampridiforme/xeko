@@ -220,4 +220,14 @@ describe ('Board', function() {
 
 		});
 	});
+
+	describe ('findCardAtLocation', function() {
+		it ('should find all cards in the given location', function() {
+			// TODO: Under current rules, should only return the single card at that location
+		});
+
+		it ('should return an empty array if the given location is invalid', function() {
+			// TODO: Just try it out with negatives, out of range
+		});
+	});
 });
