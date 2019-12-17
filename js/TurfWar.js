@@ -1,4 +1,3 @@
-const multiLinkBonus = Symbol('multiLinkBonus');
 
 class TurfWar {
 	// NOTE: must be a DEEP copy of the board object!
@@ -51,8 +50,8 @@ class TurfWar {
 		let finalInvaderBoost = this._invadingBoost;
 		let finalDefenderBoost = (this._invalidateDefenderBoosts) ? 0 : this._defendingBoost;
 
-		let invaderMultiLink = this[multiLinkBonus](true); // TODO
-		let defenderMultiLink = this[multiLinkBonus](false); // TODO
+		let invaderMultiLink = this._multiLinkBonus(true); // TODO
+		let defenderMultiLink = this._multiLinkBonus(false); // TODO
 
 		let finalInvaderScore = finalInvaderBoost + this._invadingSpecies.energy;
 		let finalDefenderScore = finalDefenderBoost + this._defendingSpecies.energy;
@@ -79,12 +78,12 @@ class TurfWar {
 	}
 
 	// ----- HELPERS -----
-	[validatePlacement](_row, _col) {
+	_validatePlacement(_row, _col) {
 		// TODO
 	}
 
 	// calculates each player's multilink bonus
-	[multiLinkBonus](_isInvader) {
+	_multiLinkBonus(_isInvader) {
 		let res = 0;
 
 		if (_isInvader) {

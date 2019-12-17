@@ -34,3 +34,11 @@
 	height: 0%;
 	background-color: darkgrey;
 }
+
+.card-eco {
+	color: green;
+}
+
+.card-energy {
+	color: red;
+}

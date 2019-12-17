@@ -1,8 +1,5 @@
 let constants = require('./constants.js');
 
-const initBoard = Symbol('initBoard');
-const validatePosition = Symbol('validatePosition');
-
 class Board {
 	/**
 	 * Board constructor
@@ -13,7 +10,7 @@ class Board {
 	 * @return {null}           
 	 */
 	constructor(_deckSize, _hotspot) {
-		this._board = this[initBoard](_deckSize, _hotspot);
+		this._board = this._initBoard(_deckSize, _hotspot);
 
 	}
 
@@ -94,7 +91,7 @@ class Board {
 	 * @return {bool}			Returns false if the function aborted due to an invalid position. 
 	 */
 	placeCard(_card, _row, _col) {
-		if (this[validatePosition]) {
+		if (this._validatePosition) {
 			this._board[_row][_col] = _card;
 			return true;
 		}
@@ -126,7 +123,7 @@ class Board {
 	 *                          does not belong to either player. 
 	 * @return {Board} 			Returns the initialized Board
 	 */
-	[initBoard](_deckSize, _hotspot) {
+	_initBoard(_deckSize, _hotspot) {
 		let boardSize = _deckSize * 2;
 		//let board = new Array(boardSize + 1).fill(new Array(boardSize + 1).fill(null));
 
@@ -152,7 +149,7 @@ class Board {
 	 * @param {int} _col 	Column to check if an existing card is present in
 	 * @return {bool} 		Returns false if there is a card present in the specified location (ie. invalid)
 	 */
-	[validatePosition](_row, _col) {
+	_validatePosition(_row, _col) {
 		return (!this._board[_row][_col]);
 	}
 

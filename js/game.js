@@ -1,5 +1,3 @@
-const findSunsetCards = Symbol('findSunsetCards');
-const findSunriseCards = Symbol('findSunriseCards');
 
 class Game {
 	constructor(_players, _hotspot) {
@@ -38,12 +36,12 @@ class Game {
 
 	// ----- HELPERS -----
 	// TODO: actually make this find the sunrise cards
-	[findSunriseCards]() {
+	_findSunriseCards() {
 		return "here they are!";
 	}
 
 	// TODO: actually make this find the sunset cards
-	[findSunsetCards]() {
+	_findSunsetCards() {
 		return "here they are also!";
 	}
 
@@ -65,11 +63,11 @@ class Game {
 	}
 
 	get sunriseCards() {
-		return this[findSunriseCards]();
+		return this._findSunriseCards();
 	}
 
 	get sunsetCards() {
-		return this[findSunsetCards]();
+		return this._findSunsetCards();
 	}
 
 	// for card use only

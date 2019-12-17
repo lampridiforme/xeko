@@ -1,8 +1,6 @@
 let constants = require('./constants.js');
 let CardCollection = require('./CardCollection.js')
 
-const initHand = Symbol('initHand');
-
 class Player {
 	constructor(_id, _name, _deck) {
 		this._id = _id;
@@ -11,7 +9,7 @@ class Player {
 		this._deck.shuffle();
 
 		this._hand = new CardCollection();
-		this[initHand](constants.initialHandCount);
+		this._initHand(constants.initialHandCount);
 
 		this._shedPile = new CardCollection();
 	}
@@ -35,7 +33,7 @@ class Player {
 
 	// ----- HELPERS -----
 	// performs the initial draw to hand
-	[initHand](_numCards) {
+	_initHand(_numCards) {
 		for (let i = 0; i < _numCards; i++) {
 			let drawnCard = this._deck.draw();
 			this._hand.place(drawnCard);

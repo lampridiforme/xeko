@@ -1,7 +1,5 @@
 let Card = require('./Card.js');
 
-const createEffect = Symbol('createEffect');
-
 class SpeciesCard extends Card {
 	constructor(_player, _template) {
 		super(_player, _template);
@@ -14,13 +12,13 @@ class SpeciesCard extends Card {
 
 	// ----- INTERFACE -----
 	applyEffect() {
-		this._effect = this[createEffect]();
+		this._effect = this._createEffect();
 		super.applyEffect();
 	}
 
 	// ----- HELPERS -----
 	// TODO: use rulesType to generate effects
-	[createEffect]() {
+	_createEffect() {
 		return () => console.log("Effect has been updated (Species)");
 	}
 

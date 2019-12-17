@@ -1,8 +1,6 @@
 let Card = require('./Card.js');
 let constants = require('./constants.js');
 
-const createEffect = Symbol('createEffect');
-
 class BoostCard extends Card {
 	constructor(_player, _template) {
 		super(_player, _template);
@@ -12,7 +10,7 @@ class BoostCard extends Card {
 
 	// ----- INTERFACE -----
 	applyEffect() {
-		this._effect = this[createEffect]();
+		this._effect = this._createEffect();
 		super.applyEffect();
 	}
 
@@ -20,7 +18,7 @@ class BoostCard extends Card {
 	// Uses turf war context
 	// TODO: move this into another type of object, maybe some sort of factory
 	// That way initializing the effect system will be a little more module and open up the possibility of mocking creation
-	[createEffect]() {
+	_createEffect() {
 		let effect;
 
 		switch (this._id) {
