@@ -19,14 +19,21 @@ class Game {
 
 	}
 
+	sunrise() {
+
+	}
+
 	// places a card on the board
-	placeCardOnBoard(_card) {
+	placement(_card, _board, _x, _y) {
 
 	}
 
 	// starts a turf war
-	startTurfWar(_invader, _defender) {
+	turfWar(_invader, _defender, _board) {
 
+	}
+
+	sunset() {
 	}
 
 	// returns the winner of the game

@@ -1,5 +1,5 @@
 {
-	"M1": {
+	"MM1": {
 		"name": "Camouflage",
 		"pack": "Madagascar",
 		"number": 1,
@@ -21,7 +21,7 @@
 		"flavorText": "Great defense - animals blend in to hide.",
 		"image": ""
 	},
-	"M2": {
+	"MM2": {
 		"name": "Fresh Spring",
 		"pack": "Madagascar",
 		"number": 2,
@@ -43,7 +43,7 @@
 		"flavorText": "A quick drink refreshes.",
 		"image": ""
 	},
-	"M3": {
+	"MM3": {
 		"name": "Warning Sign",
 		"pack": "Madagascar",
 		"number": 3,
@@ -65,7 +65,7 @@
 		"flavorText": "Birds take flight giving warning that something big is on its way.",
 		"image": ""
 	},
-	"M4": {
+	"MM4": {
 		"name": "Vacant Cave",
 		"pack": "Madagascar",
 		"number": 4,
@@ -87,7 +87,29 @@
 		"flavorText": "Great place to hide ... hope it's empty!",
 		"image": ""
 	},
-	"M6": {
+		"MM5": {
+		"name": "Lightning Strike",
+		"pack": "Madagascar",
+		"number": 5,
+		"cardType": "Boost",
+		"speciesType": "",
+		"speciesName": "",
+		"rarity": "Rare",
+		"borders": {
+			"left": ["orange"],
+			"right": ["orange"],
+			"top": ["orange"],
+			"bottom": ["orange"]
+		},
+		"energy": 0,
+		"points": 0,
+		"level": 0,
+		"rulesType": "ADDENERGY-7",
+		"rulesText": "+7 Energy",
+		"flavorText": "Lightning hits the opponent's species. Ouch!",
+		"image": ""
+	},
+	"MM6": {
 		"name": "Swarm",
 		"pack": "Madagascar",
 		"number": 6,
@@ -109,7 +131,7 @@
 		"flavorText": "There's strength in numbers.",
 		"image": ""
 	},
-	"M7": {
+	"MM7": {
 		"name": "Disguise",
 		"pack": "Madagascar",
 		"number": 7,
@@ -131,7 +153,7 @@
 		"flavorText": "To be invisible, blend in.",
 		"image": ""
 	},	
-	"M8": {
+	"MM8": {
 		"name": "Armour",
 		"pack": "Madagascar",
 		"number": 8,
@@ -153,7 +175,7 @@
 		"flavorText": "Crusty shell protects so well!",
 		"image": ""
 	},	
-	"M9": {
+	"MM9": {
 		"name": "Heavy Storm",
 		"pack": "Madagascar",
 		"number": 9,
@@ -175,7 +197,7 @@
 		"flavorText": "All creatures, big and small, take cover in heavy weather.",
 		"image": ""
 	},	
-	"M10": {
+	"MM10": {
 		"name": "Stridulation",
 		"pack": "Madagascar",
 		"number": 10,
@@ -197,7 +219,7 @@
 		"flavorText": "The vibrating of spines to make a resping sound scares some predators away.",
 		"image": ""
 	},	
-	"M11": {
+	"MM11": {
 		"name": "Food Stash",
 		"pack": "Madagascar",
 		"number": 11,
@@ -219,7 +241,7 @@
 		"flavorText": "Quick snack gives extra energy.",
 		"image": ""
 	},	
-	"M12": {
+	"MM12": {
 		"name": "Toxic",
 		"pack": "Madagascar",
 		"number": 12,
@@ -241,7 +263,7 @@
 		"flavorText": "Some species acquire toxins through their diet, making them poisonous and yucky-tasting. The Mantella baroni snacks on ants.",
 		"image": ""
 	},	
-	"M13": {
+	"MM13": {
 		"name": "Rain",
 		"pack": "Madagascar",
 		"number": 13,
@@ -263,7 +285,7 @@
 		"flavorText": "Tsy misy ala, tsy misy rano, tsy misy vary!",
 		"image": ""
 	},	
-	"M14": {
+	"MM14": {
 		"name": "Hiding Spot",
 		"pack": "Madagascar",
 		"number": 14,
@@ -285,7 +307,7 @@
 		"flavorText": "Lie low and keep quiet until trouble passes by...",
 		"image": ""
 	},	
-	"M15": {
+	"MM15": {
 		"name": "Sticky Web Trap",
 		"pack": "Madagascar",
 		"number": 15,
@@ -307,7 +329,7 @@
 		"flavorText": "Gumbed up in a spider's sticky web.",
 		"image": ""
 	},	
-	"M16": {
+	"MM16": {
 		"name": "Up a Tree",
 		"pack": "Madagascar",
 		"number": 16,
@@ -329,7 +351,7 @@
 		"flavorText": "Out of harm's reach?",
 		"image": ""
 	},	
-	"M17": {
+	"MM17": {
 		"name": "Full Moon",
 		"pack": "Madagascar",
 		"number": 17,
@@ -351,7 +373,7 @@
 		"flavorText": "Moon light, shine bright. Light the earth for the hunt tonight.",
 		"image": ""
 	},	
-	"M18": {
+	"MM18": {
 		"name": "Fangs!",
 		"pack": "Madagascar",
 		"number": 18,
@@ -373,7 +395,7 @@
 		"flavorText": "Sharp teeth --- big bite! Fangs give Turf War advantage.",
 		"image": ""
 	},	
-	"M19": {
+	"MM19": {
 		"name": "Brute Force",
 		"pack": "Madagascar",
 		"number": 19,
@@ -395,7 +417,7 @@
 		"flavorText": "It helps to be big and strong.",
 		"image": ""
 	},	
-	"M20": {
+	"MM20": {
 		"name": "Ruckuss!",
 		"pack": "Madagascar",
 		"number": 20,
@@ -417,7 +439,7 @@
 		"flavorText": "Make crazy noise to win the day.",
 		"image": ""
 	},	
-	"M21": {
+	"MM21": {
 		"name": "Symbiosis",
 		"pack": "Madagascar",
 		"number": 21,
@@ -439,7 +461,7 @@
 		"flavorText": "Wild collaboration. These clever frogs have a wet home and ready bug supply thanks to the pitcher plant.",
 		"image": ""
 	},	
-	"M22": {
+	"MM22": {
 		"name": "Healing Plant",
 		"pack": "Madagascar",
 		"number": 22,
@@ -461,7 +483,7 @@
 		"flavorText": "Rosy periwinkle, found only in Madagascar, is considered a miracle plant.",
 		"image": ""
 	},	
-	"M23": {
+	"MM23": {
 		"name": "Nocturnal Instinct",
 		"pack": "Madagascar",
 		"number": 23,
@@ -483,7 +505,7 @@
 		"flavorText": "Looking for a midnight snack!",
 		"image": ""
 	},	
-	"M24": {
+	"MM24": {
 		"name": "Super Smell",
 		"pack": "Madagascar",
 		"number": 24,
@@ -505,7 +527,7 @@
 		"flavorText": "Sniff. Sniff! What smells? Oh, it's my tail!",
 		"image": ""
 	},	
-	"M25": {
+	"MM25": {
 		"name": "Super Speed",
 		"pack": "Madagascar",
 		"number": 25,
@@ -527,7 +549,7 @@
 		"flavorText": "Go fast to catch your prey or get away!",
 		"image": ""
 	},
-	"M26": {
+	"MM26": {
 		"name": "Golden Bamboo Lemur",
 		"pack": "Madagascar",
 		"number": 26,
@@ -549,7 +571,7 @@
 		"flavorText": "One of the world's most endangered. GBL eats daily - 500g of bamboo containing 12 times the amount of cyanide lethal to most animals.",
 		"image": ""
 	},
-	"M27": {
+	"MM27": {
 		"name": "Hawk Moth",
 		"pack": "Madagascar",
 		"number": 27,
@@ -571,7 +593,7 @@
 		"flavorText": "Super-fast flyers and symbiotic with comet orchid. Darwin predicted their existence before they were known.",
 		"image": ""
 	},
-	"M28": {
+	"MM28": {
 		"name": "Fossa",
 		"pack": "Madagascar",
 		"number": 28,
@@ -593,7 +615,7 @@
 		"flavorText": "One of the world's weirdest - and Madagascar's most ferocious - predators. Said to have a nose like a dog's, teeth like a leopard's and whiskers like an otter's.",
 		"image": ""
 	},
-	"M29": {
+	"MM29": {
 		"name": "Hawksbill Sea Turtle",
 		"pack": "Madagascar",
 		"number": 29,
@@ -615,7 +637,7 @@
 		"flavorText": "This ocean swimmer loves the taste of sea sponges. Mind the beak!",
 		"image": ""
 	},
-	"M30": {
+	"MM30": {
 		"name": "Madagascar Fish Eagle",
 		"pack": "Madagascar",
 		"number": 30,
@@ -637,7 +659,7 @@
 		"flavorText": "Close relative of the bald eagle - one of the most endangered raptors in the world. Loud, measured call: Wha ... wah ... wah ...",
 		"image": ""
 	},
-	"M31": {
+	"MM31": {
 		"name": "Golden Crowned Lemur",
 		"pack": "Madagascar",
 		"number": 31,
@@ -659,7 +681,7 @@
 		"flavorText": "One of the most endangered lemurs and fady to harm. Grooms its (and friends') fur with six lower teeth that stick out to form a funky comb.",
 		"image": ""
 	},
-	"M32": {
+	"MM32": {
 		"name": "Ploughshare Tortoise",
 		"pack": "Madagascar",
 		"number": 32,
@@ -681,7 +703,7 @@
 		"flavorText": "In wrestling matches to win a mate, these turtles use their \"plow\" to flip over opponents.",
 		"image": ""
 	},
-	"M33": {
+	"MM33": {
 		"name": "Tomato Frog",
 		"pack": "Madagascar",
 		"number": 33,
@@ -703,7 +725,7 @@
 		"flavorText": " Red like a ripe tomato. As a defense, it secretes a toxic ooze.",
 		"image": ""
 	},
-	"M34": {
+	"MM34": {
 		"name": "Giant Leaf-tailed Gecko",
 		"pack": "Madagascar",
 		"number": 34,
@@ -725,7 +747,7 @@
 		"flavorText": "Gecko with perfect tree camouflage. Bark-like skin, large eyes, no eye lids, a flip-top head and leaf-like tail.",
 		"image": ""
 	},
-	"M35": {
+	"MM35": {
 		"name": "Nile Crocodile",
 		"pack": "Madagascar",
 		"number": 35,
@@ -747,7 +769,7 @@
 		"flavorText": "One tough and hungry crock - where did that bird go? (Burp!)",
 		"image": ""
 	},
-	"M36": {
+	"MM36": {
 		"name": "Giant-striped Mongoose",
 		"pack": "Madagascar",
 		"number": 36,
@@ -769,7 +791,7 @@
 		"flavorText": "Nocturnal and crepuscular - active at night and at twilight.",
 		"image": ""
 	},
-	"M37": {
+	"MM37": {
 		"name": "Malagasy Ring-tailed Mongoose",
 		"pack": "Madagascar",
 		"number": 37,
@@ -791,7 +813,30 @@
 		"flavorText": "Diurnal and gregarious - active and playful during the day.",
 		"image": ""
 	},
-	"M39": {
+	"MM38": {
+		"name": "Golden Frog",
+		"pack": "Madagascar",
+		"number": 38,
+		"cardType": "Species",
+		"speciesType": "Amphibian",
+		"speciesName": "Mantella auraniaca",
+		"rarity": "Vanishing",
+		"borders": {
+			"left": ["purple"],
+			"right": ["purple"],
+			"top": ["purple"],
+			"bottom": ["red"]
+		},
+		"energy": 11,
+		"points": 14,
+		"level": 4,
+		"rulesType": "TURFSPECIES-REPTILE-4",
+		"rulesText": "",
+		"flavorText": "A herpetologist's favorite - known for eating anything, even if the tasts is repulsive. Eat them at your own risk - these colorful frogs are toxic!",
+		"image": ""
+	},
+
+	"MM39": {
 		"name": "Commerson's Leaf-nosed Bat",
 		"pack": "Madagascar",
 		"number": 39,
@@ -813,7 +858,7 @@
 		"flavorText": "Holy bat-nose! With a wingspan of nearly 2 feet, it's one of the largest insectivors in Africa.",
 		"image": ""
 	},
-	"M40": {
+	"MM40": {
 		"name": "Hairy-eared Dwarf Lemur",
 		"pack": "Madagascar",
 		"number": 40,
@@ -835,7 +880,7 @@
 		"flavorText": "One of the rarest, smallest - and cutest - primates on the planet, once thought extinct, this lemur was \"rediscovered\" with the help of a Malagasy local.",
 		"image": ""
 	},
-	"M41": {
+	"MM41": {
 		"name": "Alluaudia Spiny Plant",
 		"pack": "Madagascar",
 		"number": 41,
@@ -857,7 +902,7 @@
 		"flavorText": "A prickly perch.",
 		"image": ""
 	},
-	"M42": {
+	"MM42": {
 		"name": "Comet Orchid",
 		"pack": "Madagascar",
 		"number": 42,
@@ -879,7 +924,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M43": {
+	"MM43": {
 		"name": "Dutchman's Pipe",
 		"pack": "Madagascar",
 		"number": 43,
@@ -901,7 +946,7 @@
 		"flavorText": "The flowers of most Aristolochia emit a powerful stench - smells like rotting meat. Pee-eew!",
 		"image": ""
 	},
-	"M44": {
+	"MM44": {
 		"name": "Carnivorous Pitcher Plant",
 		"pack": "Madagascar",
 		"number": 44,
@@ -923,7 +968,7 @@
 		"flavorText": "The pretty plant is deadly to bugs. Digests insects for a meal.",
 		"image": ""
 	},
-	"M45": {
+	"MM45": {
 		"name": "Voantany",
 		"pack": "Madagascar",
 		"number": 45,
@@ -945,7 +990,7 @@
 		"flavorText": "Lemurs' favorite. Extremely rare and known as \"fruit of the earth.\"",
 		"image": ""
 	},
-	"M46": {
+	"MM46": {
 		"name": "Grandidier Baobab",
 		"pack": "Madagascar",
 		"number": 46,
@@ -967,7 +1012,7 @@
 		"flavorText": "African tree of life. Sacred.",
 		"image": ""
 	},
-	"M47": {
+	"MM47": {
 		"name": "White Lotus",
 		"pack": "Madagascar",
 		"number": 47,
@@ -989,7 +1034,7 @@
 		"flavorText": "An old and evolutionarily primitive beauty.",
 		"image": ""
 	},
-	"M48": {
+	"MM48": {
 		"name": "Tamarind Tree",
 		"pack": "Madagascar",
 		"number": 48,
@@ -1011,7 +1056,7 @@
 		"flavorText": "Lemur catta's favorite.",
 		"image": ""
 	},
-	"M49": {
+	"MM49": {
 		"name": "Travelers Palm",
 		"pack": "Madagascar",
 		"number": 49,
@@ -1033,7 +1078,7 @@
 		"flavorText": "A welcome sign.",
 		"image": ""
 	},
-	"M50": {
+	"MM50": {
 		"name": "Giant Bamboo",
 		"pack": "Madagascar",
 		"number": 50,
@@ -1055,7 +1100,7 @@
 		"flavorText": "High in protein as well as cyanide.",
 		"image": ""
 	},
-	"M51": {
+	"MM51": {
 		"name": "Indri",
 		"pack": "Madagascar",
 		"number": 51,
@@ -1077,7 +1122,7 @@
 		"flavorText": "\"There it is.\"",
 		"image": ""
 	},
-	"M52": {
+	"MM52": {
 		"name": "Verreaux's Sifaka",
 		"pack": "Madagascar",
 		"number": 52,
@@ -1099,7 +1144,7 @@
 		"flavorText": "Great gliders. Capable of making giant jumps through trees - leaps of 30 ft are not uncommon!",
 		"image": ""
 	},
-	"M53": {
+	"MM53": {
 		"name": "Woolly Lemur",
 		"pack": "Madagascar",
 		"number": 53,
@@ -1121,7 +1166,7 @@
 		"flavorText": "Out at night with eyes so bright.",
 		"image": ""
 	},
-	"M54": {
+	"MM54": {
 		"name": "Flat-tailed Tortoise",
 		"pack": "Madagascar",
 		"number": 54,
@@ -1143,7 +1188,7 @@
 		"flavorText": "Known locally as Kapidolo (ghost turtle).",
 		"image": ""
 	},
-	"M55": {
+	"MM55": {
 		"name": "Katydid",
 		"pack": "Madagascar",
 		"number": 55,
@@ -1165,7 +1210,7 @@
 		"flavorText": "What can a bug do to hide? Make like a tree and leaf!",
 		"image": ""
 	},
-	"M56": {
+	"MM56": {
 		"name": "Spider Tortoise",
 		"pack": "Madagascar",
 		"number": 56,
@@ -1187,7 +1232,7 @@
 		"flavorText": "Tortoises are sacred and lucky! It is fady to harm them.",
 		"image": ""
 	},
-	"M57": {
+	"MM57": {
 		"name": "Fire Millipede",
 		"pack": "Madagascar",
 		"number": 57,
@@ -1209,7 +1254,7 @@
 		"flavorText": "Ready ... Aim ... Millipede!",
 		"image": ""
 	},
-	"M58": {
+	"MM58": {
 		"name": "Madagascar Hissing Cockroach",
 		"pack": "Madagascar",
 		"number": 58,
@@ -1231,7 +1276,7 @@
 		"flavorText": "Giant cockroaches that hisssssss. Hisssssss. Hissssssssssssssssss.",
 		"image": ""
 	},
-	"M59": {
+	"MM59": {
 		"name": "Comet Moth",
 		"pack": "Madagascar",
 		"number": 59,
@@ -1253,7 +1298,7 @@
 		"flavorText": "These gentle flyers have up to 8-inch wing spans. Tres bizarre: Adult comet moths have no mouths!",
 		"image": ""
 	},
-	"M60": {
+	"MM60": {
 		"name": "Giraffe-necked Weevil",
 		"pack": "Madagascar",
 		"number": 60,
@@ -1275,7 +1320,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M61": {
+	"MM61": {
 		"name": "Clear-winged Butterfly",
 		"pack": "Madagascar",
 		"number": 61,
@@ -1297,7 +1342,7 @@
 		"flavorText": "Field agents report in: Help Xeko learn the scientific name for this fancy flyer.",
 		"image": ""
 	},
-	"M62": {
+	"MM62": {
 		"name": "Yellow-line Caterpillar",
 		"pack": "Madagascar",
 		"number": 62,
@@ -1319,7 +1364,7 @@
 		"flavorText": "This caterpillar eats and eats, munching leaves for a treat.",
 		"image": ""
 	},
-	"M63": {
+	"MM63": {
 		"name": "Orange Pill Millipede",
 		"pack": "Madagascar",
 		"number": 63,
@@ -1341,7 +1386,7 @@
 		"flavorText": "Two pairs of legs on every ring, makes me so happy I could sing!",
 		"image": ""
 	},
-	"M64": {
+	"MM64": {
 		"name": "Radiated Tortoise",
 		"pack": "Madagascar",
 		"number": 64,
@@ -1363,7 +1408,7 @@
 		"flavorText": "One of the rarest tortoises. Rod's favorite - a true star.",
 		"image": ""
 	},
-	"M65": {
+	"MM65": {
 		"name": "Gold Tortoise Beetle",
 		"pack": "Madagascar",
 		"number": 65,
@@ -1385,7 +1430,7 @@
 		"flavorText": "This lucky bug looks like it's wearing a space suit.",
 		"image": ""
 	},
-	"M66": {
+	"MM66": {
 		"name": "Madagascar Serpent Eagle",
 		"pack": "Madagascar",
 		"number": 66,
@@ -1407,7 +1452,7 @@
 		"flavorText": "Recently rediscovered species - once thought to be extinct...",
 		"image": ""
 	},
-	"M67": {
+	"MM67": {
 		"name": "Madagascar Leaf-nosed Snake",
 		"pack": "Madagascar",
 		"number": 67,
@@ -1429,7 +1474,7 @@
 		"flavorText": "Is that branch mooooooving? It's a snake ... make that two snakes! The male has a \"stick\" nose and the female a \"leaf\".",
 		"image": ""
 	},
-	"M68": {
+	"MM68": {
 		"name": "Olive Ridley Sea Turtle",
 		"pack": "Madagascar",
 		"number": 68,
@@ -1451,7 +1496,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M69": {
+	"MM69": {
 		"name": "Madagascan Tree Boa",
 		"pack": "Madagascar",
 		"number": 69,
@@ -1473,7 +1518,7 @@
 		"flavorText": "Sssssssssnakes are sssssssacred.",
 		"image": ""
 	},
-	"M70": {
+	"MM70": {
 		"name": "Sickle-billed Vanga",
 		"pack": "Madagascar",
 		"number": 70,
@@ -1495,7 +1540,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M71": {
+	"MM71": {
 		"name": "Madagascar Crested Ibis",
 		"pack": "Madagascar",
 		"number": 71,
@@ -1517,7 +1562,7 @@
 		"flavorText": "Large terrestrial bird with chestnut coloring, green crest, large curved bill and white wings. SQUAWK!",
 		"image": ""
 	},
-	"M72": {
+	"MM72": {
 		"name": "Scorpion",
 		"pack": "Madagascar",
 		"number": 72,
@@ -1539,7 +1584,7 @@
 		"flavorText": "Beware the scorpion's sting.",
 		"image": ""
 	},
-	"M73": {
+	"MM73": {
 		"name": "Madagascar Sideneck Turtle",
 		"pack": "Madagascar",
 		"number": 73,
@@ -1561,7 +1606,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M74": {
+	"MM74": {
 		"name": "Madagascar Ground Boa",
 		"pack": "Madagascar",
 		"number": 74,
@@ -1583,7 +1628,7 @@
 		"flavorText": "Ssssssssss ... I have room for ... ssssssssss ... one more.",
 		"image": ""
 	},
-	"M75": {
+	"MM75": {
 		"name": "Madagascar Heron",
 		"pack": "Madagascar",
 		"number": 75,
@@ -1605,7 +1650,7 @@
 		"flavorText": "This wetland wonder likes fresh fish.",
 		"image": ""
 	},
-	"M76": {
+	"MM76": {
 		"name": "Striped Civet",
 		"pack": "Madagascar",
 		"number": 76,
@@ -1627,7 +1672,7 @@
 		"flavorText": "Fat tails! Striped Civets store fat reserves in their tails as an energy source for winter.",
 		"image": ""
 	},
-	"M77": {
+	"MM77": {
 		"name": "Madagascar Red Owl",
 		"pack": "Madagascar",
 		"number": 77,
@@ -1649,7 +1694,7 @@
 		"flavorText": "One of the 50 rarest birds in the world. Voice: Hissing call.",
 		"image": ""
 	},
-	"M78": {
+	"MM78": {
 		"name": "Loggerhead Sea Turtle",
 		"pack": "Madagascar",
 		"number": 78,
@@ -1671,7 +1716,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M79": {
+	"MM79": {
 		"name": "Leatherback Sea Turtle",
 		"pack": "Madagascar",
 		"number": 79,
@@ -1693,7 +1738,7 @@
 		"flavorText": "Found from tropical to sub-polar oceans.",
 		"image": ""
 	},
-	"M80": {
+	"MM80": {
 		"name": "Panther Chameleon",
 		"pack": "Madagascar",
 		"number": 80,
@@ -1715,7 +1760,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M81": {
+	"MM81": {
 		"name": "Thorn Spider",
 		"pack": "Madagascar",
 		"number": 81,
@@ -1737,7 +1782,7 @@
 		"flavorText": "Fake eyes fake out!",
 		"image": ""
 	},
-	"M82": {
+	"MM82": {
 		"name": "Oustalet's Chameleon",
 		"pack": "Madagascar",
 		"number": 82,
@@ -1759,7 +1804,7 @@
 		"flavorText": "\"Go about life the way a chameleon walk; face what is in front and look back at what is behind.\" - Malagasy Proverb",
 		"image": ""
 	},
-	"M83": {
+	"MM83": {
 		"name": "Van Dam's Vagna",
 		"pack": "Madagascar",
 		"number": 83,
@@ -1781,7 +1826,7 @@
 		"flavorText": "Calls TSEEANG very loudly.",
 		"image": ""
 	},
-	"M84": {
+	"MM84": {
 		"name": "Greater Hedgehog Tenrec",
 		"pack": "Madagascar",
 		"number": 84,
@@ -1803,7 +1848,7 @@
 		"flavorText": "Shake, rattle and roll! Masters of stridulation (the vibrating of spines to produce a rasping sound) this is one animal that you don't want to upset!",
 		"image": ""
 	},
-	"M85": {
+	"MM85": {
 		"name": "Aye-aye",
 		"pack": "Madagascar",
 		"number": 85,
@@ -1825,7 +1870,7 @@
 		"flavorText": "This nocturnal lemur has continuously-growing incisor teeth and EXTRA-long middle fingers (great for digging grubs).",
 		"image": ""
 	},
-	"M86": {
+	"MM86": {
 		"name": "Giant Jumping Rat",
 		"pack": "Madagascar",
 		"number": 86,
@@ -1847,7 +1892,7 @@
 		"flavorText": "Is that a rat or a kangaroo???",
 		"image": ""
 	},
-	"M87": {
+	"MM87": {
 		"name": "Brown Mouse Lemur",
 		"pack": "Madagascar",
 		"number": 87,
@@ -1869,7 +1914,7 @@
 		"flavorText": "The smallest primate on the planet is as small as a walnut!",
 		"image": ""
 	},
-	"M88": {
+	"MM88": {
 		"name": "Madagascar Flying Fox",
 		"pack": "Madagascar",
 		"number": 88,
@@ -1891,7 +1936,7 @@
 		"flavorText": "Quiet shadows come gliding in. These nocturnal flyers are seed spreaders.",
 		"image": ""
 	},
-	"M90": {
+	"MM90": {
 		"name": "Madagascar Ground Gecko",
 		"pack": "Madagascar",
 		"number": 90,
@@ -1913,7 +1958,7 @@
 		"flavorText": "Well grounded - Pictus does not climb walls.",
 		"image": ""
 	},
-	"M91": {
+	"MM91": {
 		"name": "Running Coua",
 		"pack": "Madagascar",
 		"number": 91,
@@ -1935,7 +1980,7 @@
 		"flavorText": "Vivid blue eye-patch.",
 		"image": ""
 	},
-	"M92": {
+	"MM92": {
 		"name": "Coppery Day Gecko",
 		"pack": "Madagascar",
 		"number": 92,
@@ -1957,7 +2002,7 @@
 		"flavorText": "To hear a gecko bark is good luck (and good hearing)!",
 		"image": ""
 	},
-	"M93": {
+	"MM93": {
 		"name": "White-breasted Mesite",
 		"pack": "Madagascar",
 		"number": 93,
@@ -1979,7 +2024,7 @@
 		"flavorText": "Walks slowly, flicking over leaves in search of snacks.",
 		"image": ""
 	},
-	"M94": {
+	"MM94": {
 		"name": "Ring-tailed Lemur",
 		"pack": "Madagascar",
 		"number": 94,
@@ -2001,7 +2046,7 @@
 		"flavorText": "Ambassador. Social, keen sense of smell, and a fabulous ring tail.",
 		"image": ""
 	},
-	"M95": {
+	"MM95": {
 		"name": "Madagascar Teal",
 		"pack": "Madagascar",
 		"number": 95,
@@ -2023,7 +2068,7 @@
 		"flavorText": "Small dabbling duck. The rarest duck in the world.",
 		"image": ""
 	},
-	"M96": {
+	"MM96": {
 		"name": "Compass",
 		"pack": "Madagascar",
 		"number": 96,
@@ -2045,7 +2090,7 @@
 		"flavorText": "The compass enables field agents to move like magic. -XM",
 		"image": ""
 	},
-	"M97": {
+	"MM97": {
 		"name": "Three Totems",
 		"pack": "Madagascar",
 		"number": 97,
@@ -2067,7 +2112,7 @@
 		"flavorText": "Local culture is almost as endangered as the animals. Three is considered a lucky number - whose luck is it? - ZX",
 		"image": ""
 	},
-	"M98": {
+	"MM98": {
 		"name": "Field Binoculars",
 		"pack": "Madagascar",
 		"number": 98,
@@ -2089,7 +2134,7 @@
 		"flavorText": "My Xeko binocs seem to have some new features... can't wait to test these tomorrow. - XFA",
 		"image": ""
 	},
-	"M99": {
+	"MM99": {
 		"name": "Eco-map",
 		"pack": "Madagascar",
 		"number": 99,
@@ -2111,7 +2156,7 @@
 		"flavorText": "The lemurs on my eco-map are moving ... wonder what's up? - XFA",
 		"image": ""
 	},
-	"M100": {
+	"MM100": {
 		"name": "Field Kit",
 		"pack": "Madagascar",
 		"number": 100,
@@ -2133,7 +2178,7 @@
 		"flavorText": "Spare socks came in handy after a day tracking lemurs in the rainforest. - XFA",
 		"image": ""
 	},
-	"M101": {
+	"MM101": {
 		"name": "Ambassador's Pass",
 		"pack": "Madagascar",
 		"number": 101,
@@ -2155,7 +2200,7 @@
 		"flavorText": "Send thank you to King Andrianampoinimerinandriansimitoviaminandriampanjaka. - ZA",
 		"image": ""
 	},
-	"M102": {
+	"MM102": {
 		"name": "Forest Fire",
 		"pack": "Madagascar",
 		"number": 102,
@@ -2177,7 +2222,7 @@
 		"flavorText": "A fire wiped out a good deal of habitat in the Northeast. Wonder what caused it? - XFA",
 		"image": ""
 	},
-	"M103": {
+	"MM103": {
 		"name": "16 Palm Nuts",
 		"pack": "Madagascar",
 		"number": 103,
@@ -2199,7 +2244,7 @@
 		"flavorText": "An ombiasy read my palm nuts - said Dozers were afoot. -XFA",
 		"image": ""
 	},
-	"M104": {
+	"MM104": {
 		"name": "Code: LAMINA",
 		"pack": "Madagascar",
 		"number": 104,
@@ -2221,7 +2266,7 @@
 		"flavorText": "Encoded message from XHQ.",
 		"image": ""
 	},
-	"M105": {
+	"MM105": {
 		"name": "Peace Offering",
 		"pack": "Madagascar",
 		"number": 105,
@@ -2243,7 +2288,7 @@
 		"flavorText": "\"Fandriampahalemana\" means \"peace\" in Malagasy. - ZX",
 		"image": ""
 	},
-	"M106": {
+	"MM106": {
 		"name": "Elemental: Air",
 		"pack": "Madagascar",
 		"number": 106,
@@ -2265,7 +2310,7 @@
 		"flavorText": "Elemental at your service!",
 		"image": ""
 	},
-	"M107": {
+	"MM107": {
 		"name": "Elemental: Water",
 		"pack": "Madagascar",
 		"number": 107,
@@ -2287,7 +2332,7 @@
 		"flavorText": "Elemental at your service!",
 		"image": ""
 	},
-	"M108": {
+	"MM108": {
 		"name": "Elemental: Earth",
 		"pack": "Madagascar",
 		"number": 108,
@@ -2309,7 +2354,7 @@
 		"flavorText": "Elemental at your service!",
 		"image": ""
 	},
-	"M109": {
+	"MM109": {
 		"name": "New Reserve",
 		"pack": "Madagascar",
 		"number": 109,
@@ -2331,7 +2376,7 @@
 		"flavorText": "President declared new reserve - can't wait to tell XHQ! - XFA",
 		"image": ""
 	},
-	"M110": {
+	"MM110": {
 		"name": "Critical Levels",
 		"pack": "Madagascar",
 		"number": 110,
@@ -2353,7 +2398,7 @@
 		"flavorText": "Urgent: Warning sign spotted - habitat too weak. Need more help. - XFA",
 		"image": ""
 	},
-	"M111": {
+	"MM111": {
 		"name": "Smuggler Captured",
 		"pack": "Madagascar",
 		"number": 111,
@@ -2375,7 +2420,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M112": {
+	"MM112": {
 		"name": "Ancient Text",
 		"pack": "Madagascar",
 		"number": 112,
@@ -2397,7 +2442,7 @@
 		"flavorText": "Sorabe found by XFA - what an incredible knowledge trove! - ZA",
 		"image": ""
 	},
-	"M113": {
+	"MM113": {
 		"name": "Vintana: Destiny",
 		"pack": "Madagascar",
 		"number": 113,
@@ -2419,7 +2464,7 @@
 		"flavorText": "",
 		"image": ""
 	},
-	"M114": {
+	"MM114": {
 		"name": "Dozer Mischief",
 		"pack": "Madagascar",
 		"number": 114,
@@ -2441,7 +2486,7 @@
 		"flavorText": "Dozers strike again! - XFA",
 		"image": ""
 	},
-	"M115": {
+	"MM115": {
 		"name": "Elemental: Fire",
 		"pack": "Madagascar",
 		"number": 115,
@@ -2463,7 +2508,7 @@
 		"flavorText": "Elemental at your service!",
 		"image": ""
 	},
-	"M116": {
+	"MM116": {
 		"name": "Madagascar - Hotspot",
 		"pack": "Madagascar",
 		"number": 116,
